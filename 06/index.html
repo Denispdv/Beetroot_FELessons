@@ -4,74 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lessons6</title>
+    <title>Document</title>
 </head>
 <body>
-    
-<label for="">Field for text</label>
-<input type="text">
+    <section>
+        <h1>Create an Account</h1>
+        <form>
+            <div>
+                <p>First name</p>
+                <label for="Fname"></label>
+                <input type="text">
+            </div>
+            <div>
+                <p>Last name</p>
+                <label for="Lname"></label>
+                <input type="text">
+            </div>
+            <div>
+                <p>E-mail</p>
+                <label for="email"></label>
+                <input type="email">
+            </div>
+            <p>We'll never share your email with anyone else.</p>
+            <div>
+                <label for="male">Male</label>
+                <input id="male" type="radio" name="gender" value="male" checked>
+                <label for="female">Female</label>
+                <input id="female" type="radio" name="gender" value="female">
+            </div>
+            <div>
+                <p>Country</p>
+                <select name="country">
+                    <option value="">Select</option>
+                    <option value="">Canada</option>
+                    <option value="">USA</option>
+                    <option value="">China</option>
+                    <option value="">Japan</option>
+                </select>
+            </div>
+            <div>
+                <p>City</p>
+                <label for="City"></label>
+                <input type="text">
+            </div>
+            <div>
+                <p><input type="button" value="Sing up"></p>
+            </div>
+            <div>
+                <p>By clicking the 'Sing Up' button, you confirm that you accept our</p>
+                <p><a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a> </p>
+                <hr>
+            </div>
+            <div>
+                <p>Have an account?</p>
+                <p><a href="#">Log In</a></p>
+            </div>
+        </form>
+    </section>
 
-
-<input type="submit" value="Sumbit me!">
-<input type="button" value="Press me!">
-
-<input type="text" value="Test1">
-<input type="text" value="Test2">
-
-<input type="reset">
-
-<label for="">Password</label>
-<input type="password" required>
-
-<label for="field1">Test 1 lable</label>
-<input id="field1" type="radio" value="Test 1">
-
-<label for="field2">Test 2 lable</label>
-<input id="field2" type="radio" value="Test 2">
-
-<label for="field3">Test 2 lable</label>
-<input id="field3" type="radio" value="Test 3">
-
-
-<input type="color">
-
-<br>
-<input type="date">
-<input type="datetime-local">
-<input type="date">
-<input type="time">
-
-
-<input type="email">
-<input type="search">
-<input type="tel">
-<input type="url">
-
-<input type="file">
-<input type="range">
-
-<input type="number" step="10" min="51" form="test">
-
-<h1>Kabinet</h1>
-<form action="">
-    <div>
-        <label for="">Name</label>
-        <input type="text" value="Denis">
-    </div>
-    <div>
-        <label for="">Surname</label>
-        <input type="text" value="Pdv">
-    </div>
-</form>
-
-<div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, et!
-</div>
-
-<button type="submit" form="test">
-    Submit me!
-
-</button>
-
+    <section>
+        <h2>Profile</h2>
+        <form>
+            <div>
+                <img src="https://pbs.twimg.com/profile_images/1549810661911195648/KdOpnFJe_400x400.png" alt="figma">
+                <input type="foto">
+                <input type="button" value="trash">
+                <p>Uo to 1 MB (300x300 px)</p>
+            </div>
+            <div>
+                <p>Name</p>
+                <label for="name"></label>
+                <input type="text">
+            </div>
+            <div>
+                <p>E-mail</p>
+                <label for="email"></label>
+                <input type="email">
+            </div>
+            <div>
+                <p>Country</p>
+                <select name="country">
+                    <option value="">Select</option>
+                    <option value="">Canada</option>
+                    <option value="">USA</option>
+                    <option value="">China</option>
+                    <option value="">Japan</option>
+                </select>
+            </div>
+            <div>
+                <p>City</p>
+                <label for="City"></label>
+                <input type="text">
+            </div>
+            <div>
+                <p>Zip Code</p>
+                <label for="zipcode"></label>
+                <input type="number">
+            </div>
+            <div>
+                <p>Phone Nnmber </p>
+                <label for="phone"></label>
+                <input type="tel">
+            </div>
+            <div>
+                <p><input type="button" value="Sing up"></p>
+            </div>
+        </form>
+    </section>
 </body>
 </html>
