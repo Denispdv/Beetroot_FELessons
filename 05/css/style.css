@@ -1,89 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Open Sans';
 }
 
-.header-menu {
-    max-width: 970px;
-    text-align: center;
+.container {
+    width: 970px;
     margin: 0 auto;
 }
 
-li {
-    display: inline-block;
-    margin: 0px auto;
-    padding: 36px;
-    height: 40px;
-}
-
-.header-li-menu {
+.header-menu {
     text-align: center;
 }
 
-li a {
+.li_header {
+    display: inline-block;
+    margin: 25px auto;
+}
+
+.li_header a {
     text-decoration: none;
-    font-family: 'Open Sans';
     font-size: 18px;
     color: #828282;
-    display: inline-block;
-    line-height: 25px;
-
-
+    padding: 0 20px 0 20px;
 }
 
 .line {
     width: 970px;
     border: 1px solid #828282;
+    margin: auto
 }
 
 
-.title {
+h1 {
     font-size: 48px;
-    margin: 12px 0 50px 0;
+    font-weight: 700;
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 12px;
 }
 
-
-.about {
-    background-color: #F6F6F6;
-    padding: 100px 0;
-    margin: 0 0 100px 0;
-}
-
-.title-foto {
+.titlt-foto {
     display: flex;
-    justify-content: center;
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-
-.about-container {
+.about-me {
     width: 100%;
-    height: 506px;
+    height: 500px;
     background: #F6F6F6;
     text-align: center;
+    
+}
+
+.about-me-container {
+    height: 500px;
+    width: 970px;
     margin: 0 auto;
+    color: #070707
+}
+
+.about {
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 700;
+    padding-top: 100px;
 }
 
 .about-me_paragraf1 {
+    padding-top: 50px;
     font-size: 18px;
-    margin-top: 50px;
-    font-family: 'Open Sans';
+    line-height: 25px;
     font-weight: 400;
-    line-height: 15px;
-    text-align: center
 }
 
 .about-me_paragraf2 {
-    margin: 30px 0;
+    padding-top: 30px;
     font-size: 18px;
-    font-family: 'Open Sans';
+    line-height: 25px;
     font-weight: 400;
-    line-height: 15px;
-    text-align: center
 }
 .about-me_paragraf3 {
-    margin: 30px auto;
+    padding-top: 30px;
     font-size: 18px;
-    font-family: 'Open Sans';
+    line-height: 25px;
     font-weight: 400;
-    line-height: 15px;
-    text-align: center
 }
+
+
+/* Skills */
+
+.skills-container {
+    height: 564px;
+    width: 970px;
+    margin: 0 auto;
+}
+
+.heading {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skills {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.skills_paragraph {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap: 97px;
+}
+
+.skills_program {
+    align-items: center;
+    text-align: center;
+}
+
+.display_skills {
+    display: flex;
+    margin: 60px 0 100px;
+}
+
+.display_skills_figma {
+    display: flex;
+    margin: 80px 0 100px;
+}
+
+.stars {
+    width: 26px;
+    padding-right: 10px;
+    border-top: 60px;
+}
+
+.program {
+    height: 80px;
+    margin-top: 50px;
+}
+
+.paragraph_items {
+    color: #828282;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    flex: none
+}
+
+
+/* Portfolio */
+
+.portfolio_background {
+    background-color: #F6F6F6;
+    text-align: center;
+    width: 100%;
+    height: 2270px;
+}
+
+figcaption {
+    color: #070707;
+    padding: 40px 0 70px 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.h2_portfolio {
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-size: 34px;
+    line-height: 46px;  
+    color: #070707;
+}
+
+.paragraph_portfolio {
+    text-decoration-line: underline;
+}
+
+.foto_fashion_store {
+    width: 970px;
+    height: 540px;
+}
+
+
+
+/* Contacts */
+
+.heading_contact {
+    text-align: center;
+    margin-top: 100px;
+    color: #070707
+}
+
+.contacts_h2 {
+    font-size: 34px;
+}
+
+.contacts_paragraph {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.button_links {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    height: 45px;
+    width: 180px;
+    background-color: #070707;
+    color: #FFFFFF;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.social-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social-group img {
+    width: 40px;
+    margin: 0 25px;
+}
+
+.social_group_paragraph {
+    width: 200px;
+    height: 60px;
+    margin: 60px auto;
+    padding-bottom: 40px;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+}
+
+/* 
+- запутался и не уверен что везде правильно указал где должен быть MARGIN а где PADDING.
+- так же и по названиям КЛАССОВ, тоже не уверен что дал правильные названия.
+ */

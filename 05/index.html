@@ -4,37 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 5</title>
     <link rel="stylesheet" href="css/style.css">
+    <title>Denis Novik</title>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <nav class="header-menu">
-                <ul class="header-li-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about_me">About me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
-                </ul> 
-            </nav>
+    <header class="container">
+        <nav >
+            <ul class="header-menu">
+                <li class="li_header"><a href="#title">Home</a></li>
+                <li class="li_header"><a href="#about_me">About me</a></li>
+                <li class="li_header"><a href="#skills">Skills</a></li>
+                <li class="li_header"><a href="#portfolio">Portfolio</a></li>
+                <li class="li_header"><a href="#contacts">Contacts</a></li>
+            </ul>
             <hr class="line">
-        </div>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <div class="section-title">
-                <h1 class="title">Denis Novik</h1>
-                <img class="title-foto" src="img/Denis_Novik_header_BSPP2266x940.jpg" alt="Denis_Novik">
-            </div>
+        <section class="title" id="title">
+            <h1>Denis Novik</h1>
+            <img class="titlt-foto" src="img/Denis_Novik_header_BSPP2266x940.jpg" alt="denis-novik">
         </section>
 
-        <section>
-            <div class="about-container">
-                <h2 id="about_me">About me</h2>
-
+        <section class="about-me" id="about-me">
+            <div class="about-me-container">
+                <h2 class="about">About me</h2>
                 <div class="about-me_paragraf1">
                     <p>Hi, I'm Denis – UX/UI designer from Minsk.</p>
                     <p>I'm interested in design and everything connected with it.</p>
@@ -47,115 +42,124 @@
                     <p>Ready to implement excellent projects</p>
                     <p>with wonderful people.</p>
                 </div>
-
             </div>
         </section>
 
-        <section>
-            <div class="skills_container" id="skills">
-                <h2>Skills</h2>
-                <p>I work in such programs as</p>
-            </div>
-            
-            <div>
-                <img src="img/Photoshop.png" alt="photoshop">
-                <p>Adobe</p>
-                <p>photoshop</p>
-            </div>
-            <div>
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_grey.png" alt="">
+        <section class="skills-container" id="skills">
+            <div class="heading">
+                <h2 class="skills">Skills</h2>
+                <p class="skills_paragraph">I work in such programs as</p>
             </div>
 
-            <div>
-                <img src="img/Illustrator.png" alt="illustrator">
-                <p>Adobe</p>
-                <p>Illustrator</p>
-            </div>
-            <div>
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_grey.png" alt="">
-                <img src="img/Star_grey.png" alt="">
-            </div>
+            <div class="product-list">
 
-            <div>
-                <img src="img/AE.png" alt="ae">
-                <p>Adobe</p>
-                <p>After Effects</p>
+                <div class="skills_program">
+                    <img class="program" src="img/Photoshop.png" alt="photoshop">
+                    <div class="paragraph_items">
+                        <p>Adobe</p>
+                        <p>photoshop</p>
+                    </div>
+                    <div class="display_skills">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_grey.png" alt="star_gray">
+                        <img class="stars" src="img/Star_grey.png" alt="star_gray">
+                        <img class="stars" src="img/Star_grey.png" alt="star_gray">
+                    </div>
+                </div>
+                <div class="skills_program">
+                    <img class="program" src="img/Illustrator.png" alt="illustrator">
+                    <div class="paragraph_items">
+                        <p>Adobe</p>
+                        <p>Illustrator</p>
+                    </div>
+                    <div class="display_skills">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_grey.png" alt="star_gray">
+                        <img class="stars" src="img/Star_grey.png" alt="star_gray">
+                   </div>
+                </div>
+                <div class="skills_program">
+                    <img class="program" src="img/AE.png" alt="After Effects">
+                    <div class="paragraph_items">
+                        <p>Adobe</p>
+                        <p>After Effects</p>
+                    </div>
+                    <div class="display_skills">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_grey.png" alt="star_gray">
+                    </div>
+                </div>
+                <div class="skills_program">
+                    <img class="program" src="img/Figma.png" alt="figma">
+                    <div class="paragraph_items">
+                        <p>Figma</p>
+                    </div>
+                    <div class="display_skills_figma">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                        <img class="stars" src="img/Star_black.png" alt="star_black">
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_grey.png" alt="">
-            </div>
-
-            <div>
-                <img src="img/Figma.png" alt="figma">
-                <p>Figma</p>
-            </div>
-            <div>
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_black.png" alt="">
-                <img src="img/Star_grey.png" alt="">
-                <img src="img/Star_grey.png" alt="">
-            </div>
-
-            
         </section>
 
-        <div>
-            <h2 id="portfolio">Portfolio</h2>
-            <figure>
-                <img src="img/Portfolio_1.jpg" alt="wooman_man">
-                <figcaption>
-                    <a href="">Online fashion store - Homepage</a>
-                </figcaption>
+        <div class="portfolio_background" id="portfolio">
+            <h2 class="h2_portfolio">Portfolio</h2>
+
+            <figure class="paragraph_portfolio">
+                <img class="foto_fashion_store" src="img/Portfolio_1.jpg" alt="wooman_man">
+                <figcaption >
+                    Online fashion store - <br> Homepage
+                </figcaption>    
             </figure>
 
-            <figure>
-                <img src="img/Portfolio_2.jpg" alt="reebok">
-                <figcaption>
-                    <a href="">Reebok Store - Concept</a>
-                </figcaption>
+            <figure class="paragraph_portfolio">
+                <img class="foto_fashion_store" src="img/Portfolio_2.jpg" alt="reebok">
+                <figcaption>Reebok Store - Concept</figcaption>
             </figure>
 
-            <figure>
-                <img src="img/Portfolio_3.jpg" alt="braun">
-                <figcaption>
-                    <a href="">Braun Landing Page - Concept</a>
-                </figcaption>
-            </figure>
+            <figure class="paragraph_portfolio">
+                <img class="foto_fashion_store" src="img/Portfolio_3.jpg" alt="braun">
+                <figcaption>Braun Landing Page - Concept</figcaption>
         </div>
+
     </main>
 
-    <footer>
-        <div>
-            <h2 id="contacts">Contacts</h2>
-            <p>Want to know more or just chat?</p>
-            <p>You are welcome!</p>
+    <footer class="contacts" id="contacts">
+        <div class="heading_contact">
+            <h2 class="contacts_h2">Contacts</h2>
+            <div class="contacts_paragraph">
+                <p>Want to know more or just chat?</p>
+                <p>You are welcome!</p>
+            </div>
         </div>
-        <div>
-            <button type="submit">Send message</button>
+
+        <div class="button">
+            <button class="button_links" type="submit">Send message</button>
         </div>
-        <div>
+
+        <div class="social-group">
             <a href="https://www.linkedin.com" target="_blank"><img src="img/linkedln.png" alt="linkedln"></a>
             <a href="https://www.instagram.com" target="_blank"><img src="img/Instagram.png" alt="Instagram"></a>
             <a href="https://www.behance.net" target="_blank"><img src="img/behance.png" alt="behance"></a>
             <a href="https://dribbble.com" target="_blank"><img src="img/dribble.png" alt="dribble"></a>
         </div>
-        <div>
+
+        <div class="social_group_paragraph">
             <p>Like me on</p>
             <p>LinkedIn, Instagram, Behance,</p>
             <p>Dribble</p>
         </div>
+        
     </footer>
+    
 </body>
 </html>
