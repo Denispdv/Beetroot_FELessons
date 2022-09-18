@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    display: grid;
+    width: 500px;
+    margin: 100px;
+    border: 2px solid black;
+    background-color: aliceblue;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-auto-columns: 100px;
+
+}
+
+.item {
+
+
+}

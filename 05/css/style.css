@@ -29,9 +29,8 @@ body {
 }
 
 .line {
-    width: 970px;
     border: 1px solid #828282;
-    margin: auto
+    margin: 0 auto
 }
 
 
@@ -58,9 +57,7 @@ h1 {
     
 }
 
-.about-me-container {
-    height: 500px;
-    width: 970px;
+.about-me-section {
     margin: 0 auto;
     color: #070707
 }
@@ -95,9 +92,8 @@ h1 {
 
 /* Skills */
 
-.skills-container {
+.skills {
     height: 564px;
-    width: 970px;
     margin: 0 auto;
 }
 
@@ -107,7 +103,7 @@ h1 {
     text-align: center;
 }
 
-.skills {
+.skills_header {
     font-size: 34px;
     font-weight: 700;
 }
@@ -193,7 +189,6 @@ figcaption {
 }
 
 .foto_fashion_store {
-    width: 970px;
     height: 540px;
 }
 

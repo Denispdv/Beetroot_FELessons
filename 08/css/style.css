@@ -1,0 +1,127 @@
+
+
+/* не смог сделать:
+- чтобы кликать можно было в любом месте строки и при этом выделялся квадрат
+- чтобы при выделении строчка меняет цвет */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    margin-top: 100px;
+    
+}
+
+.title {
+    width: 793px;
+    height: 82px;
+    background: #4A4F56;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+h1 {
+    padding-top: 19px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto';
+    color: #FF8984;
+}
+
+p {
+    padding-top: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto';
+    color: #FF8984;
+}
+
+.block {
+    width: 793px;
+    height: 425px;
+    background: #3B3F45;
+    margin: 0 auto;
+}
+
+.checkbox_list {
+    padding-top: 20px;
+}
+
+div {
+    width: 534px;
+    height: 45px;
+    background-color: #88839E;
+    margin: 0 auto;
+    display: flex;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 2px hotpink;
+}
+
+.checkbox:hover {
+    background-color: #625E77;
+    border-top: 3px solid #fff ;
+    border-bottom: 3px solid #fff;
+}
+
+div:nth-child(even) {
+    background-color: #7A7593;
+}
+
+
+
+input:checked {
+    text-decoration: line-through;
+    color: red;
+}
+
+
+input {
+    height: 19px;
+    width: 19px;
+    margin: 12px 0 14px 12px;
+    
+}
+
+label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 11px 188px 13px 16px;    
+}
+
+small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer {
+    background: #4A4F56;
+    margin: 45px 130px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF8984;
+    padding: 12px 0;
+}
