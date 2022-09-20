@@ -63,7 +63,6 @@ div {
     height: 45px;
     background-color: #88839E;
     margin: 0 auto;
-    display: flex;
 }
 
 input[type="checkbox"]:checked {
