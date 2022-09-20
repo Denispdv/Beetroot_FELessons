@@ -1,12 +1,8 @@
-
-
 * {
     margin: 0;
     padding: 0;
     transition: all .1s ease-in;
-
 }
-
 
 body {
     background-color: #E5E5E5;
@@ -126,5 +122,3 @@ h2 {
     color: #FF8984;
     padding: 12px 0;
 }
-
-
