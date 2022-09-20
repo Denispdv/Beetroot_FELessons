@@ -1,22 +1,40 @@
+
 * {
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
 
-.block {
+body {
+background: #E5E5E5;
+}
+
+main {
+    position: relative;
+    width: 1440px;
+    height: 5565px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Delius Unicase';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-top: 120px;
+
+}
+
+.drid-section_one {
     display: grid;
-    width: 500px;
-    margin: 100px;
-    border: 2px solid black;
-    background-color: aliceblue;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 100px);
-    grid-auto-columns: 100px;
-
-}
-
-.item {
-
-
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 80px;
 }

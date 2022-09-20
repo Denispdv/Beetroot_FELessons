@@ -76,6 +76,7 @@ input[type="checkbox"]:checked {
     border-bottom: 3px solid #fff;
 }
 
+
 div:nth-child(even) {
     background-color: #7A7593;
 }
@@ -129,3 +130,5 @@ h2 {
     color: #FF8984;
     padding: 12px 0;
 }
+
+
