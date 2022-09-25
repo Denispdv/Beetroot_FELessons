@@ -50,7 +50,6 @@ h1 {
 }
 
 .about-me {
-    width: 100%;
     height: 500px;
     background: #F6F6F6;
     text-align: center;
@@ -58,7 +57,6 @@ h1 {
 }
 
 .about-me-section {
-    margin: 0 auto;
     color: #070707
 }
 
@@ -83,7 +81,7 @@ h1 {
     font-weight: 400;
 }
 .about-me_paragraf3 {
-    padding-top: 30px;
+    padding: 30px 0 100px 0;
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
@@ -92,20 +90,16 @@ h1 {
 
 /* Skills */
 
-.skills {
-    height: 564px;
-    margin: 0 auto;
-}
 
 .heading {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    padding: 100px 0 50px 0;
     text-align: center;
 }
 
 .skills_header {
     font-size: 34px;
     font-weight: 700;
+    color: #070707;
 }
 
 .skills_paragraph {
@@ -129,29 +123,33 @@ h1 {
 
 .display_skills {
     display: flex;
-    margin: 60px 0 100px;
+    padding: 60px 0 100px 0;
 }
 
 .display_skills_figma {
     display: flex;
-    margin: 80px 0 100px;
+    padding: 80px 0 100px 0;
 }
 
 .stars {
     width: 26px;
     padding-right: 10px;
-    border-top: 60px;
+    
+}
+
+.stars:last-child {
+    padding-right: 0;
 }
 
 .program {
     height: 80px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .paragraph_items {
     color: #828282;
     font-weight: 400;
-    margin-top: 30px;
+    padding-top: 30px;
     text-align: center;
     font-weight: 700;
     font-size: 14px;
@@ -165,8 +163,6 @@ h1 {
 .portfolio_background {
     background-color: #F6F6F6;
     text-align: center;
-    width: 100%;
-    height: 2270px;
 }
 
 figcaption {
@@ -179,8 +175,7 @@ figcaption {
 }
 
 .h2_portfolio {
-    padding-top: 100px;
-    margin-bottom: 50px;
+    padding: 100px 0 50px 0;
     font-size: 34px;
     line-height: 46px;  
     color: #070707;
@@ -209,18 +204,17 @@ figcaption {
 }
 
 .contacts_paragraph {
-    margin-top: 20px;
-    margin-bottom: 60px;
+    padding-top: 20px;
     font-size: 18px;
 }
 
 .button {
+    padding-top: 30px;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 30px;
 }
 
 .button_links {
+    border: none;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -230,12 +224,14 @@ figcaption {
     color: #FFFFFF;
     border-radius: 22px;
     cursor: pointer;
+    
 }
 
 .social-group {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    padding-top: 30px;
+
 }
 
 .social-group img {
@@ -244,17 +240,9 @@ figcaption {
 }
 
 .social_group_paragraph {
-    width: 200px;
-    height: 60px;
-    margin: 60px auto;
-    padding-bottom: 40px;
+    padding: 60px 0 100px 0;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
     color: #828282;
 }
-
-/* 
-- запутался и не уверен что везде правильно указал где должен быть MARGIN а где PADDING.
-- так же и по названиям КЛАССОВ, тоже не уверен что дал правильные названия.
- */
