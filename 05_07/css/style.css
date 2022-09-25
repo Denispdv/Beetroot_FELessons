@@ -52,35 +52,31 @@ h1 {
 .about-me {
     background: #F6F6F6;
     text-align: center;
-    
-}
-
-.about-me-section {
-    color: #070707
+    padding: 100px 0;
+    color: #070707;
 }
 
 .about {
     font-size: 34px;
     line-height: 46px;
     font-weight: 700;
-    padding-top: 100px;
 }
 
 .about-me_paragraf1 {
-    padding-top: 50px;
+    margin-top: 50px;
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
 }
 
 .about-me_paragraf2 {
-    padding-top: 30px;
+    margin-top: 30px;
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
 }
 .about-me_paragraf3 {
-    padding: 30px 0 100px 0;
+    margin-top: 30px;
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
