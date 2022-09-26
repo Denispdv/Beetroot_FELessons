@@ -10,7 +10,7 @@ body {
   margin-top: 100px;
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400 600 700;
   font-size: 18px;
   line-height: 28px;
 }
@@ -84,7 +84,7 @@ a {
   border: none;
   background-color: #FF9900;
   color: #FFFFFF;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 
@@ -137,7 +137,6 @@ p {
   border: none;
   background-color: #FF9900;
   color: #FFFFFF;
-  font-weight: 600;
   margin-top: 20px;
 }
 
