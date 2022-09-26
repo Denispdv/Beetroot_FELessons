@@ -2,29 +2,154 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  transition: all .1s ease-in;
 }
 
 body {
   background-color: #F2F2F2;
   margin-top: 100px;
   font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }
 
-h1 + h2 + li {
-  color: #2F281E
+
+.wrapper {
+  max-width: 1440px;
+  background-color: #FFFFFF;
+  margin: 0px auto;
+}
+
+
+.content {
+  padding-top: 17px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo { 
+  margin-right: 198px;
+  vertical-align: middle;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.header_nav {
+  margin-right: 198px;
+}
+
+
+a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2F281E;
+  text-decoration: none;
+}
+
+.header_nav *:hover {
+  color: #FF9900;
+}
+
+.buttons {
+  margin-right: 120px;
+}
+
+.button_header:first-child {
+  margin-right: 32px;
+}
+
+.button_header {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 13px 25px;
+  border-radius: 4px;
+  border: none;
+  background-color: #FF9900;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+
+.button_header:hover {
+  background-color: #FFFFFF;
+  color: #2F281E;
+  border: 1px solid #BCD0E5;
+}
+
+
+
+.first_screen {
+  padding-top: 87px;
+  display: flex;
+  vertical-align: middle;
+  align-content: stretch;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title_first_screen {
+  max-width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: space-between;
+  margin-right: 56px
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2F281E;
 }
 
 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
   color: #544837;
+  margin-top: 30px;
 }
 
-.container {
-  max-width: 1440px;
+.button_first_screen {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px 48px;
+  border-radius: 4px;
+  border: none;
+  background-color: #FF9900;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.button_first_screen:hover {
   background-color: #FFFFFF;
-  
+  color: #2F281E;
+  border: 1px solid #BCD0E5;
 }
 
-.content {
-  text-align: center;
-  display: inline-block;
+.img_first_screen {
+  width: 644px;
+  vertical-align: middle;
+  margin-right: 120px
 }
+
