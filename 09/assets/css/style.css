@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F2F2;
+  margin-top: 100px;
+  font-family: 'Montserrat';
+}
+
+h1 + h2 + li {
+  color: #2F281E
+}
+
+p {
+  color: #544837;
+}
+
+.container {
+  max-width: 1440px;
+  background-color: #FFFFFF;
+  
+}
+
+.content {
+  text-align: center;
+  display: inline-block;
+}

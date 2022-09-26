@@ -128,10 +128,10 @@ h1 {
 }
 
 .stars {
-    width: 26px;
-    padding-right: 10px;
-    
+    height: 26px;
+    padding-right: 10px;   
 }
+
 
 .stars:last-child {
     padding-right: 0;
@@ -139,7 +139,6 @@ h1 {
 
 .program {
     height: 80px;
-    padding-top: 50px;
 }
 
 .paragraph_items {
