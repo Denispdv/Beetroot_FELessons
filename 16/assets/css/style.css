@@ -1,0 +1,83 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:root {
+--base-font: 16px;
+--base-color: #16133D;
+}
+
+
+h1, .h1 {
+font-family:'Montserrat';
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #EFEEF3;
+  padding: 1.375rem 0;  /* 22px */
+
+}
+
+.header__logo {
+ margin-bottom: 2,5rem; /* 40px */
+}
+
+/* main content */
+.content {
+  margin: 6.25rem; 
+}
+
+
+.block-grid {
+  display: grid;
+}
+
+.block-grid__teemplate-3col {
+  grid-template-columns:  repeat(3, 1fr);
+  gap: 1.875rem; /* 30px */
+}
+
+
+.container__subtitle {
+  line-height: 1.3125rem; /* 21px */
+  color: #7690A8;
+  text-transform: uppercase;
+}
+
+.content_title {
+  margin-top: ;
+  margin-bottom: ;
+}
+
+
+/* footer */
+.footer {
+  background-color: var(--base-color);
+  padding:  2.5rem 0; /* 40px */
+}
+
+/* ikonki v stroku
+ */.footer__social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__social-media-item svg {
+  width: 2.375rem;
+  height: 2.375rem; /* 38px */
+  fill: #0d0d0d;
+  transform: all .2s ease-out;  /* animation */
+}

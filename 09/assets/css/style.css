@@ -6,41 +6,43 @@
 }
 
 body {
-  background-color: #F2F2F2;
-  margin-top: 100px;
+  width: 1440px;
+  margin: 0 auto;
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 400 600 700;
   font-size: 18px;
   line-height: 28px;
 }
 
-
-.wrapper {
-  max-width: 1440px;
-  background-color: #FFFFFF;
-  margin: 0px auto;
+header {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-
 .content {
-  padding-top: 17px;
-  display: flex;
-  vertical-align: middle;
-  align-items: center;
-  justify-content: flex-end;
+margin: 0 auto;
+display: inline-block;
+margin-bottom: 70px;
+width: 100%;
+text-align: center;
+padding: 17px 0;
 }
 
 .logo { 
-  margin-right: 198px;
-  vertical-align: middle;
+  display: inline-block;
 }
 
-ul {
+.logo img {
+  vertical-align: middle;
+  margin-right: 187px;
+}
+
+.header_nav {
   display: inline-block;
   vertical-align: middle;
-  justify-content: space-between;
+  margin-right: 187px;
 }
+
 
 .menu-item {
   display: inline-block;
@@ -50,11 +52,6 @@ ul {
 .menu-item:last-child {
   margin-right: 0;
 }
-
-.header_nav {
-  margin-right: 198px;
-}
-
 
 a {
   font-style: normal;
@@ -69,11 +66,14 @@ a {
 }
 
 .buttons {
-  margin-right: 120px;
+  vertical-align: middle;
+  display: inline-block;
 }
 
-.button_header:first-child {
-  margin-right: 32px;
+.button_header:last-child {
+  margin-left: 32px;
+  padding: 13px 20.5px;
+
 }
 
 .button_header {
@@ -84,7 +84,7 @@ a {
   border: none;
   background-color: #FF9900;
   color: #FFFFFF;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 
@@ -97,11 +97,10 @@ a {
 
 
 .first_screen {
-  padding-top: 87px;
+  margin: 0 auto;
+  width: 1200px;
   display: flex;
   vertical-align: middle;
-  align-content: stretch;
-  justify-content: flex-end;
   align-items: center;
 }
 
@@ -118,6 +117,8 @@ h1 {
   font-size: 44px;
   line-height: 54px;
   color: #2F281E;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 p {
@@ -126,18 +127,18 @@ p {
   font-size: 18px;
   line-height: 28px;
   color: #544837;
-  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .button_first_screen {
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  padding: 15px 48px;
+  padding: 15px 44px;
   border-radius: 4px;
   border: none;
   background-color: #FF9900;
   color: #FFFFFF;
-  margin-top: 20px;
 }
 
 .button_first_screen:hover {
@@ -149,6 +150,5 @@ p {
 .img_first_screen {
   width: 644px;
   vertical-align: middle;
-  margin-right: 120px
 }
 

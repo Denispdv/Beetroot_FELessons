@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+:root {
+--base-font: 16px;
+--base-color: #16133D;
+}
+
+h1, .h1 {
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1.375rem 0;  /* 22px */
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #EFEEF3
+}
+
+.header__logo {
+    width: 12,5rem;
+    height: 2.1875rem;
+}
+
+
+
+.footer {
+    background-color: var(--base-color);
+    padding:  2.5rem 0;
+}
