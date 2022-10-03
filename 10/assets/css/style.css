@@ -25,11 +25,6 @@ h2 {
   border-radius: 20px;
 }
 
-
-
-
-
-
 .item {
   position: relative;
 }
@@ -90,27 +85,22 @@ h2 {
   background: rgba(224, 224, 224, 0.5);
   border-radius: 8px;
 }
+
 .icon--left {
   left: 20px;
 }
+
 .icon--right {
   right: 20px;
 }
+
 .item:hover .icon {
   opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.icon--right:hover {
+  background-color: #E0E0E0;
+}
 
 .grid_section_one {
   width: 100%;
