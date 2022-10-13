@@ -249,7 +249,6 @@ a:hover {
   width: 42px;
   height: 42px;
   background: #FFFFFF;
-  border: 1px solid #18B5DC;
   background-repeat: no-repeat;
   background-position: center;
   padding: 0;
@@ -261,6 +260,7 @@ a:hover {
 
 .footer_twitter {
   background-image: url(../ikon/twitter_white.png);
+  border: 1px solid #18B5DC;
 }
 .footer_twitter:hover {
   background-image: url(../ikon/twitter.png);
@@ -268,6 +268,7 @@ a:hover {
 
 .footer_facebook {
   background-image: url(../ikon/facebook_white.png);
+  border: 1px solid #18B5DC;
 }
 .footer_facebook:hover {
   background-image: url(../ikon/facebook.png);
@@ -275,6 +276,7 @@ a:hover {
 
 .footer_instagram {
   background-image: url(../ikon/instagram_white.png);
+  border: 1px solid #18B5DC;
 }
 .footer_instagram:hover {
   background-image: url(../ikon/instagram.png);
