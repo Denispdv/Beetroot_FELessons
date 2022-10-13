@@ -4,44 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Lato:wght@300;400;700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="../11/assets/css/normalize.css">
     <link rel="stylesheet" href="../11/assets/css/reset.css">
     <link rel="stylesheet" href="../11/assets/css/style.css">
-    <title>Lesson 10</title>
+    <title>Lesson 10 BEM </title>
 
 </head>
 <body>
-    <main>
-        <section>
-            <h2>Architectural Photography</h2>
-            
-            <div class="grid_section_one">
-                    
-                    <div class="one item">
-                    </div>
-    
-                    <div class="two item">
-                    </div>
-    
-                    <div class="thre item">
-                    </div>
-    
-                    <div class="four item">
-                    </div>
-    
-                    <div class="five item">
-                    </div>
-    
-                    <div class="six item">
-                    </div>
-                
-            </div>
-        </section>
 
-    </main>
+    <div class="container">
+        <header class="header">
+            <img class="heder_logo" src="../11/assets/img/logo.png" alt="logo">
+            <ul class="header_menu menu">
+                <li class="menu_item">
+                    <a href="#" target="_blank">Home</a>
+                </li>
+    
+                <li class="menu_item">
+                    <a href="#" target="_blank">Services</a>
+                </li>
+    
+                <li class="menu_item">
+                    <a href="#" target="_blank">About</a>
+                </li>
+    
+                <li class="menu_item">
+                    <a href="#" target="_blank">Contacts</a>
+                </li>
+            </ul>
+            <button class="header_button">callback</button>
+        </header>
+    
+        <main class="main">
+            <section class="main_section">
+                <div class="main_section_top">
+                    <h1 class="main_section_title">who we are
+                    </h1>
+                    <hr class="main_section_line">
+                    <p class="main_section_subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.
+                    </p>
+                </div>
+    
+                <div class="main_people">
+                    
+                    <div class="people_card">
+                        <div class="card_box card1">
+                            <button class="card_button btn_twitter"></button>
+                            <button class="card_button btn_facebook"></button>
+                            <button class="card_button btn_instagram"></button>
+                        </div>
+                        <div>
+                            <p class="card_box_name">John Handson</p>
+                            <p class="card_box_job">Lead designer</p>
+                        </div>
+                    </div>
+    
+                    <div class="people_card">
+                        <div class="card_box card2">
+                            <button class="card_button btn_twitter"></button>
+                            <button class="card_button btn_facebook"></button>
+                            <button class="card_button btn_instagram"></button>
+                        </div>
+                        <div>
+                            <p class="card_box_name">Alex Cutter</p>
+                            <p class="card_box_job">Developer</p>
+                        </div>
+                    </div>
+    
+                    <div class="people_card">
+                        <div class="card_box card3">
+                            <button class="card_button btn_twitter"></button>
+                            <button class="card_button btn_facebook"></button>
+                            <button class="card_button btn_instagram"></button>
+                        </div>
+                        <div>
+                            <p class="card_box_name">Elena Simpson</p>
+                            <p class="card_box_sjob">Artist</p>
+                        </div>
+                    </div>
+    
+                    <div class="people_card">
+                        <div class="card_box card4">
+                            <button class="card_button btn_twitter"></button>
+                            <button class="card_button btn_facebook"></button>
+                            <button class="card_button btn_instagram"></button>
+                        </div>
+                        <div>
+                            <p class="card_box_name">Lily Allen</p>
+                            <p class="card_box_job">Graphic Designer</p>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </section>
+        </main>
+    
+        <footer class="footer">
+                <img class="footer_logo" src="../11/assets/img/logo.png" alt="logo">
+                <ul class="footer_menu menu">
+                    <li class="menu_item">
+                        <a href="#" target="_blank">Home</a>
+                    </li>
+        
+                    <li class="menu_item">
+                        <a href="#" target="_blank">Services</a>
+                    </li>
+        
+                    <li class="menu_item">
+                        <a href="#" target="_blank">About</a>
+                    </li>
+        
+                    <li class="menu_item">
+                        <a href="#" target="_blank">Contacts</a>
+                    </li>
+                </ul>
+                <div class="footer_button">
+                    <button class="footer_button_icon footer_twitter"></button>
+                    <button class="footer_button_icon footer_facebook"></button>
+                    <button class="footer_button_icon footer_instagram"></button>
+                    <button class="footer_button_icon footer_linkedin"></button>
+                    <button class="footer_button_icon footer_telegram"></button>
+                </div>
+        </footer>
+    </div>
     
 </body>
 </html>

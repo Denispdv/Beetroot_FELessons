@@ -1,142 +1,297 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  main {
-    max-width: 1170px;
-    margin: 0 auto;  
-  }
-  
-  h2 {
-    font-family: 'Delius Unicase';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 45px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #000000;
-    padding-top: 120px;
-  }
-  
-
-.item {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 370px;
-    border-radius: 20px;
-}
-  
-
-.grid_section_one {
-    padding-bottom: 120px;
-    margin: 80px 0 120px 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 30px;
+* body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
 }
 
-.item {
-  position: relative;
+.container {
+  width: 1440px;
+  margin: 0 auto;
 }
 
-.item:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(360deg, #241f24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%);
-  border-radius: 20px;
+/* ------------------------------------------ HEADER ------------------------------------------ */
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #BDBDBD;
+  justify-content: center;
 }
 
-.item:hover:after {
-  background: linear-gradient(360deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%);
+.heder_logo {
+  margin-right: 206px;
+}
+
+/* ------------------------------------------ menu header + footer ------------------------------------------ */
+
+.menu {
+  display: flex;
+}
+
+.menu_item {
+  margin-left: 30px;
+}
+.menu_item:first-child {
+  margin-left: 0;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3C3C3C;
+}
+a:hover {
+  color: #18B5DC;
+}
+
+.header_button {
+  text-transform: uppercase;
+  padding: 10px 19.5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #3C3C3C;
+  border: 1px solid #3C3C3C;
+  background-color: #fff;
+  margin-left: 246px;
+}
+.header_button:hover {
+  color: #fff;
+  background: #18B5DC;
+  border: 1px solid #18B5DC;
 }
 
 
+/* ------------------------------------------ MAIN ------------------------------------------ */
 
-.one {
-    background: url(../img/Cities/Cities\ Works-1.png);
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-  }
-  .two {
-    background: url(../img/Cities/Cities\ Works-2.png);
-    grid-row: 1 / 2;
-    grid-column: 2 / 4;
-  }
-  
-  .thre {
-    background: url(../img/Cities/Cities\ Works-3.png);
-    grid-row: 2 / 3;
-    grid-column: 1 / 3;
-  }
-  
-  .four {
-    background: url(../img/Cities/Cities\ Works-4.png);
-    grid-row: 2 / 3;
-    grid-column: 3 / 4; 
-  }
-  
-  .five {
-    background: url(../img/Cities/Cities\ Works-5.png);
-    grid-row: 3 / 4;
-    grid-column: 1 / 2;
-  }
-    
-  .six {
-    background: url(../img/Cities/Cities\ Works-6.png);
-    grid-row: 3 / 4;
-    grid-column: 2 / 4;  
-  }
+.main {
+  padding: 150px 0;
+  background: #F6F6F6;
+}
 
-/*   .grid_section_one {
-    width: 100%;
-    height: 100%;
-    padding-top: 80px;
-    display: grid;
-    grid-auto-rows: 370px;
-    grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: repeat (3, 1fr);
-    grid-gap: 30px;
-  }
-  
-  
-  .one {
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-  }
-  
-  .two {
-    grid-row: 1 / 2;
-    grid-column: 2 / 4;
-  }
-  
-  .thre {
-    grid-row: 2 / 3;
-    grid-column: 1 / 3;
-  }
-  
-  .four {
-    grid-row: 2 / 3;
-    grid-column: 3 / 4; 
-  }
-  
-  .five {
-    grid-row: 3 / 4;
-    grid-column: 1 / 2;
-  }
-    
-  .six {
-    grid-row: 3 / 4;
-    grid-column: 2 / 4;  
-  }
-  
-   */
+.main_section {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.main_section_top {
+  margin: 0 auto;
+  max-width: 570px;
+  text-align: center;
+}
+
+.main_section_title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #3C3C3C;
+}
+
+.main_section_line {
+  margin-top: 20px;
+  width: 45px;
+  height: 4px;
+  border: none;
+  background: #DDDBDB;
+}
+
+.main_section_subtitle {
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3C3C3C;
+}
+
+/* ------------------------------------------ block s kartochkami ------------------------------------------ */
+
+.main_people {
+  margin: 60px auto 0;
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.card_box {
+  min-width: 270px;
+  min-height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  background: url(../img/team_item1.png);
+  background-repeat: no-repeat;
+}
+.card1:hover {
+  background-image: none; 
+  background-color: #18B5DC;
+}
+
+.card2 {
+  background: url(../img/team_item2.png);
+  background-repeat: no-repeat;
+}
+.card2:hover {
+  background-image: none; 
+  background-color: #18B5DC;
+}
+
+.card3 {
+  background: url(../img/team_item3.png);
+  background-repeat: no-repeat;
+}
+.card3:hover {
+  background-image: none; 
+  background-color: #18B5DC;
+}
+
+.card4 {
+  background: url(../img/team_item4.png);
+  background-repeat: no-repeat;
+}
+.card4:hover {
+  background-image: none; 
+  background-color: #18B5DC;
+}
+
+.card_button {
+  width: 42px;
+  height: 42px;
+  background-color: #5DCBE6;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  visibility: hidden;
+  margin-left: 4px;
+  padding: 0;
+}
+.card_button:first-child {
+  margin-left: 0;
+}
+
+.btn_twitter {
+  background-image: url(../ikon/twitter.png);
+}
+.btn_twitter:hover {
+  background-image: url(../ikon/twitter_white.png);
+  background-color: #fff;
+}
+
+.btn_facebook {
+  background-image: url(../ikon/facebook.png);
+}
+.btn_facebook:hover {
+  background-image: url(../ikon/facebook_white.png);
+  background-color: #fff;
+}
+
+.btn_instagram {
+  background-image: url(../ikon/instagram.png);
+}
+.btn_instagram:hover {
+  background-image: url(../ikon/instagram_white.png);
+  background-color: #fff;
+}
+
+.card_box:hover .card_button {
+  visibility: visible;
+
+}
+
+.card_box_name {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #282528;
+}
+
+.card_box_job {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #646464;
+}
+
+
+/* ----------------------------------------- FOOTER ------------------------------------------ */
+
+
+.footer {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_menu {
+  margin: 28px 0;
+}
+
+.footer_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_button_icon {
+  width: 42px;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #18B5DC;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  margin-left: 10px;
+}
+.footer_button_view:first-child {
+  margin-left: 0;
+}
+
+.footer_twitter {
+  background-image: url(../ikon/twitter_white.png);
+}
+.footer_twitter:hover {
+  background-image: url(../ikon/twitter.png);
+}
+
+.footer_facebook {
+  background-image: url(../ikon/facebook_white.png);
+}
+.footer_facebook:hover {
+  background-image: url(../ikon/facebook.png);
+}
+
+.footer_instagram {
+  background-image: url(../ikon/instagram_white.png);
+}
+.footer_instagram:hover {
+  background-image: url(../ikon/instagram.png);
+}
+
+.footer_linkedin {
+  background-image: url(../ikon/linkedin_white.png);
+}
+.footer_linkedin:hover {
+  background-image: url(../ikon/linkedin.png);
+}
+
+.footer_telegram {
+  background-image: url(../ikon/telegram_white.png);
+}
+.footer_telegram:hover {
+  background-image: url(../ikon/telegram.png);
+}
+
+

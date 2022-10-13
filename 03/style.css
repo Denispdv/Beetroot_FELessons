@@ -1,0 +1,63 @@
+body, html { height: 100%; width: 100%; } 
+ 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+    background: #e3e3e3;
+    border: 1px dashed #666;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+    transition: all 1s;
+  }
+
+  .box::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 10px;
+    bottom: 0;
+    left: 15%;
+    z-index: -1;
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .box > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #e3e3e3;
+    transition: all 0.5s ease-in-out;
+   
+    font: 45px/200px bold helvetica, arial, sans-serif;
+    text-align: center;
+    text-shadow: 0 1px 0 white;
+  }
+
+  /* Make sure we see the front side first */
+.box > div:first-child {
+    position: relative;
+    z-index: 2;
+  }
+
+  .box:hover {
+    transform: rotateY(180deg);
+  }
+
+  .box:hover > div:first-child {
+    opacity: 0;
+  }
+   
+  .box:hover div:last-child {
+    transform: rotateY(180deg);
+  }
+
+  
