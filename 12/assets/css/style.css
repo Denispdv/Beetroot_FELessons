@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+
+}
+
+/* ------------------------- HEADER ------------------------- */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_menu {
+    margin: 13px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_eng {
+    cursor: pointer;
+    margin-right: 50px;
+    font-family: 'Tourney';
+    font-weight: 600;
+    font-size: 22px; 
+    line-height: 18px; 
+    letter-spacing: 0.04em;
+    text-decoration: none;
+}
+
+.menu_text {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size:  22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+/* ------------------------- MAIN section ------------------------- */
+
+/* .main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
+
+.main_section {
+    margin-top: 70px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.title_first {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.title_second {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+}
+
+.section_text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 40px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.background {
+    background: #DADADA;
+}
+

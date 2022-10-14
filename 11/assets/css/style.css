@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -205,7 +205,6 @@ a:hover {
 
 .card_box:hover .card_button {
   visibility: visible;
-
 }
 
 .card_box_name {
@@ -263,7 +262,7 @@ a:hover {
   border: 1px solid #18B5DC;
 }
 .footer_twitter:hover {
-  background-image: url(../ikon/twitter.png);
+  background-image: url(../ikon/twitter_footer.png);
 }
 
 .footer_facebook {
@@ -271,7 +270,7 @@ a:hover {
   border: 1px solid #18B5DC;
 }
 .footer_facebook:hover {
-  background-image: url(../ikon/facebook.png);
+  background-image: url(../ikon/facebook_footer.png);
 }
 
 .footer_instagram {
@@ -279,21 +278,19 @@ a:hover {
   border: 1px solid #18B5DC;
 }
 .footer_instagram:hover {
-  background-image: url(../ikon/instagram.png);
+  background-image: url(../ikon/instagram_footer.png);
 }
 
 .footer_linkedin {
   background-image: url(../ikon/linkedin_white.png);
 }
 .footer_linkedin:hover {
-  background-image: url(../ikon/linkedin.png);
+  background-image: url(../ikon/linkedin_footer.png);
 }
 
 .footer_telegram {
   background-image: url(../ikon/telegram_white.png);
 }
 .footer_telegram:hover {
-  background-image: url(../ikon/telegram.png);
+  background-image: url(../ikon/telegram_footer..png);
 }
-
-
