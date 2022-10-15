@@ -41,65 +41,50 @@
     text-decoration: none;
 }
 
-/* ------------------------- MAIN section ------------------------- */
 
-/* .main {
+.heading {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-} */
-
-.main_section {
-    margin-top: 70px;
+    align-items: center;
+    gap: 20px;
 }
 
-.title {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
-.title_first {
-    font-family: 'Francois One';
-    font-style: normal;
-    font-weight: 400;
+.heading_text {
+    font-family: Roboto;
     font-size: 36px;
     line-height: 48px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
-.title_second {
-    font-family: 'Farro';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
+.heading_line {
+    Width: 100px;
+    Height: 8px;
+    Top: 20px;
+    background: #000000;
 }
 
-.section_text {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 48px;
-    margin-top: 40px;
+
+.main_grey {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
 
-.underline {
-    text-decoration: underline;
+
+.facebook_grey {
+    background-image: url(../img/facebook_grey.png);
+    background-repeat: no-repeat;
+}
+.facebook_grey:hover {
+    background-image: url(../img/facebook_hover.png);
+    background-repeat: no-repeat;
 }
 
-.italic {
-    font-style: italic;
-}
 
-.bold {
-    font-weight: 700;
+.instagram_grey {
+    background-image: url(../img/instagram_grey.png);
+    background-repeat: no-repeat;
 }
-
-.background {
-    background: #DADADA;
+.instagram_grey:hover {
+    background-image: url(../img/instagram_hover.png);
+    background-repeat: no-repeat;
 }
-
