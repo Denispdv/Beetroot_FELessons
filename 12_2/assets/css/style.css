@@ -64,10 +64,34 @@
 
 
 .main_grey {
+    padding: 20px 15px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
     gap: 30px;
 }
+
+
+
+
+
+.grid__img--back {
+    background-color: var(--grid-back);
+    transform: rotateX(180deg);
+}
+
+.grid__item:hover .grid__img--face {
+    transform: rotateX(180deg);
+}
+
+.grid__item:hover .grid__img--back {
+    transform: rotateX(360deg);
+}
+
+
+
 
 
 .facebook_grey {
@@ -80,11 +104,78 @@
 }
 
 
+.pinterest_grey {
+    background-image: url(../img/pinterest_grey.png);
+    background-repeat: no-repeat;
+}
+/* .pinterest_grey:hover {
+    background-image: url(../img/pinterest_hover.png);
+    background-repeat: no-repeat;
+} */
+
+.wix_grey {
+    background-image: url(../img/wix_grey.png);
+    background-repeat: no-repeat;
+}
+.wix_grey:hover {
+    background-image: url(../img/wix_hover.png);
+    background-repeat: no-repeat;
+}
+
+.saleforse_grey {
+    background-image: url(../img/saleforse_grey.png);
+    background-repeat: no-repeat;
+}
+.saleforse_grey:hover {
+    background-image: url(../img/saleforse_hover.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.soundcloud_grey {
+    background-image: url(../img/soundcloud_grey.png);
+    background-repeat: no-repeat;
+}
+.soundcloud_grey:hover {
+    background-image: url(../img/soundcloud_hover.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.facebook_grey {
+    background-image: url(../img/facebook_grey.png);
+    background-repeat: no-repeat;
+}
+.facebook_grey:hover {
+    background-image: url(../img/facebook_hover.png);
+    background-repeat: no-repeat;
+}
+
 .instagram_grey {
     background-image: url(../img/instagram_grey.png);
     background-repeat: no-repeat;
 }
 .instagram_grey:hover {
     background-image: url(../img/instagram_hover.png);
+    background-repeat: no-repeat;
+}
+
+.shopify_black {
+    background-image: url(../img/shopify_black.png);
+    background-repeat: no-repeat;
+}
+.shopify_black:hover {
+    background-image: url(../img/shopify_hover.png);
+    background-repeat: no-repeat;
+}
+
+.skype_grey {
+    background-image: url(../img/skype_grey.png);
+    background-repeat: no-repeat;
+}
+.skype_grey:hover {
+    background-image: url(../img/skype_hover.png);
     background-repeat: no-repeat;
 }
