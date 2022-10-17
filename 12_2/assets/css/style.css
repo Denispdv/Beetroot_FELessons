@@ -46,6 +46,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 .heading_text {
@@ -64,6 +65,7 @@
 
 
 .main_grey {
+    height: 435px;
     padding: 20px 15px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -74,108 +76,74 @@
 }
 
 
-
-
-
-.grid__img--back {
-    background-color: var(--grid-back);
-    transform: rotateX(180deg);
-}
-
-.grid__item:hover .grid__img--face {
-    transform: rotateX(180deg);
-}
-
-.grid__item:hover .grid__img--back {
-    transform: rotateX(360deg);
-}
-
-
-
-
-
-.facebook_grey {
+.facebook {
     background-image: url(../img/facebook_grey.png);
     background-repeat: no-repeat;
 }
-.facebook_grey:hover {
+.facebook:hover {
     background-image: url(../img/facebook_hover.png);
     background-repeat: no-repeat;
 }
 
-
-.pinterest_grey {
-    background-image: url(../img/pinterest_grey.png);
-    background-repeat: no-repeat;
-}
-/* .pinterest_grey:hover {
-    background-image: url(../img/pinterest_hover.png);
-    background-repeat: no-repeat;
-} */
-
-.wix_grey {
-    background-image: url(../img/wix_grey.png);
-    background-repeat: no-repeat;
-}
-.wix_grey:hover {
-    background-image: url(../img/wix_hover.png);
-    background-repeat: no-repeat;
-}
-
-.saleforse_grey {
-    background-image: url(../img/saleforse_grey.png);
-    background-repeat: no-repeat;
-}
-.saleforse_grey:hover {
-    background-image: url(../img/saleforse_hover.png);
-    background-repeat: no-repeat;
-}
-
-
-
-.soundcloud_grey {
-    background-image: url(../img/soundcloud_grey.png);
-    background-repeat: no-repeat;
-}
-.soundcloud_grey:hover {
-    background-image: url(../img/soundcloud_hover.png);
-    background-repeat: no-repeat;
-}
-
-
-
-.facebook_grey {
-    background-image: url(../img/facebook_grey.png);
-    background-repeat: no-repeat;
-}
-.facebook_grey:hover {
-    background-image: url(../img/facebook_hover.png);
-    background-repeat: no-repeat;
-}
-
-.instagram_grey {
+.instagram {
     background-image: url(../img/instagram_grey.png);
     background-repeat: no-repeat;
 }
-.instagram_grey:hover {
+.instagram:hover {
     background-image: url(../img/instagram_hover.png);
     background-repeat: no-repeat;
 }
 
-.shopify_black {
+.shopify {
     background-image: url(../img/shopify_black.png);
     background-repeat: no-repeat;
 }
-.shopify_black:hover {
+.shopify:hover {
     background-image: url(../img/shopify_hover.png);
     background-repeat: no-repeat;
 }
 
-.skype_grey {
+.skype {
     background-image: url(../img/skype_grey.png);
     background-repeat: no-repeat;
 }
-.skype_grey:hover {
+.skype:hover {
     background-image: url(../img/skype_hover.png);
+    background-repeat: no-repeat;
+}
+
+.pinterest {
+    background-image: url(../img/pinterest_grey.png);
+    background-repeat: no-repeat;
+}
+.pinterest:hover {
+    background-image: url(../img/pinterest_hover.png);
+    background-repeat: no-repeat;
+}
+
+.wix {
+    background-image: url(../img/wix_grey.png);
+    background-repeat: no-repeat;
+}
+.wix:hover {
+    background-image: url(../img/wix_hover.png);
+    background-repeat: no-repeat;
+}
+
+.saleforse {
+    background-image: url(../img/saleforse_grey.png);
+    background-repeat: no-repeat;
+}
+.saleforse:hover {
+    background-image: url(../img/saleforse_hover.png);
+    background-repeat: no-repeat;
+}
+
+.soundcloud {
+    background-image: url(../img/soundcloud_grey.png);
+    background-repeat: no-repeat;
+}
+.soundcloud:hover {
+    background-image: url(../img/soundcloud_hover.png);
     background-repeat: no-repeat;
 }
