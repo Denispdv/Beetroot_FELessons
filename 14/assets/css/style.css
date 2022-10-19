@@ -7,6 +7,12 @@
 :root {
 --base-font: 16px;
 --base-color: #16133D;
+
+--one:#E1F4F5;
+--two:#F4FEFF;
+--three:#CAEFF2;
+--four:#52C29D;
+
 }
 
 .container {
@@ -50,19 +56,33 @@
   background: #FFFFFF;
   border: 1px solid #E5EAF4;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .content__card:hover{
-  cursor: pointer;
   border: 1px solid #52C29D;
 }
 
 
-.icon:hover {
- background: url(../ikon/megaphone-green.svg);
- border-color: red;
+.content__card:hover .color_one {
+  fill: var(--one);
+}
 
- transition: all 1s ease;
+.content__card:hover .color_two {
+  fill: var(--two);
+}
+
+.content__card:hover .color_three {
+  fill: var(--three);
+}
+
+.content__card:hover .color_four {
+  fill: var(--four);
+}
+
+.content__card-icon:hover {
+  border: 1px solid rgba(61, 179, 112, 0.1);
+
 }
 
 .content_text {
