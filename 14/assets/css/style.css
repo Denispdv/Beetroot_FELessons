@@ -80,9 +80,8 @@
   fill: var(--four);
 }
 
-.content__card-icon:hover {
-  border: 1px solid rgba(61, 179, 112, 0.1);
-
+.content__card:hover .content__card-icon {
+  border: 1px solid #52C29D;
 }
 
 .content_text {
