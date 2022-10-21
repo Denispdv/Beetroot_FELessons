@@ -7,3 +7,22 @@
     display: flex;
     align-items: center;
 }
+
+@mixin fonts($f-family, $f-size, $f-weigth, $ln-height) {
+    font-family: $f-family;
+    font-size: $f-size;
+    font-weight: $f-weigth;
+    line-height: $ln-height;
+}
+
+@mixin width-height($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin posn-top_rt($absolute, $top, $right, $z-index) {
+    position: $absolute;
+    top: $top;
+    right: $right;
+    z-index: $z-index;
+}
