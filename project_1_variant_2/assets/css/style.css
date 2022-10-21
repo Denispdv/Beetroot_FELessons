@@ -85,6 +85,16 @@ html {
   color: #ffffff;
 }
 
+.first-section__button {
+  color: #ffffff;
+  background-color: #9C69E2;
+  border: 1px solid #9C69E2;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+.first-section__button:hover {
+  background-color: #8A40EE;
+}
+
 .footer__container {
   max-width: 1170px;
   margin: 0 auto;

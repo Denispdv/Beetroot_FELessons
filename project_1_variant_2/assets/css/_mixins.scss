@@ -3,3 +3,7 @@
     margin: 0 auto;
 }
 
+@mixin flex-verticle-center {
+    display: flex;
+    align-items: center;
+}
