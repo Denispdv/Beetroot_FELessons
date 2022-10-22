@@ -2,10 +2,11 @@
     &__item {
         display: inline-block;
         list-style: none;
+    }
 
-        & + & {
-            margin-left: 40px;
-        }
+    &__list {
+        display: flex;
+        gap: 40px;
     }
 
     &__link {
@@ -16,11 +17,10 @@
         line-height: 26px;
         color: $gray-dark;
         text-decoration: none;
-
         transition: color .3s ease;
+    }
 
-        &:hover {
+        &__link:hover {
             color: $violet-middle;
         }
-    }
 }

@@ -12,15 +12,26 @@
     }
 
     &__wrapper {
-        @include flex-verticle-center;
+        @include flexBox;
+        /* display: flex;
         justify-content: space-between;
+        align-items: center; */
     }
     
+    &__logo {
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        gap: 120px;
+    }
+
     &__svg {
         max-height: 36px;
     }
     
 }
+
+
 
 
 
