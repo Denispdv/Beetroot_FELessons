@@ -1,0 +1,28 @@
+.first-section {
+    position: relative;
+    display: flex;
+    padding: 100px 0;
+
+    &__content {
+        z-index: 3;
+    }
+
+    &__title {
+        max-width: 600px;
+        @include fonts($font_family_title, 80px, 700, 88px);
+        color: $violet-dark;
+    }
+
+    &__text {
+        max-width: 370px;
+        margin: 50px 0;
+        @include fonts($font_family_body, 18px, 500, 29px);
+        color: $gray-dark;
+    }
+
+    &__foto {
+       @include width-height(700px, 400px);
+       @include posn-top_rt(absolute, 160px, 75px, 2);
+    }
+
+}

@@ -1,0 +1,96 @@
+.third-section {
+
+    &__title {
+        @include fonts($font_family_title, 40px, 700, 52px);
+        text-align: center;
+        margin-bottom: 50px;
+        color: $violet-dark;
+    }
+
+    &__text {
+        @include fonts($font_family_body, 18px, 500, 29px);
+        max-width: 640px;
+        text-align: center;
+        margin: 0 auto 80px auto;
+        color: $gray-dark;
+    }
+}
+
+.third-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px 80px;
+}
+
+.cards {
+    @include width-height(400px, 400px);
+    position: relative;
+    z-index: 1;
+    border-radius: 50px;
+
+    &_first {
+        background: #F0FAF9;
+    }
+        &::before {
+            @include posn-top_rt(absolute, 20px, 50px, -1);
+            content: url(../img/bg-search.svg);
+        }
+    
+    &_second {
+        background: #F6F0FD;
+            &::before {
+                @include posn-top_rt(absolute, 225px, 20px, -1);
+                content: url(../img/bg-24hour..svg);
+            }
+        }
+    
+    &_third {
+        background: #FEF0F8;
+            &::before {
+                @include posn-top_rt(absolute, 20px, 20px, -1);
+                content: url(../img/bg-print.svg);
+            }
+        }
+    
+    &_four {
+            background: #EAF6FC;
+            &::before {
+                @include posn-top_rt(absolute, 10px, 20px, -1);
+                content: url(../img/bg-security.svg);
+            }
+    }
+
+    &__images {
+        position: absolute;
+        top: 100px;
+        left: -20px;
+        transform: translateX(-50%);
+    }
+ 
+    &__content {
+        max-width: 330px;
+        height: 280px;
+        padding: 50px 0 0 100px;
+    }
+
+    &__title {
+        @include fonts($font_family_title, 24px, 400, 31px);
+        margin: 0;
+        color: $violet-dark;
+    }
+
+    &__text {
+        @include fonts($font_family_body, 16px, 400, 26px);
+        padding: 30px 0 0 0;
+        color: $gray-dark;
+    }
+
+    &__subtitle {
+        @include fonts($font_family_body, 16px, 700, 26px);
+        position: relative;
+        top: 30px;
+        left: 100px;
+        color: $violet-dark;
+    }
+
+}

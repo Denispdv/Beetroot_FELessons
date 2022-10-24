@@ -1,21 +1,143 @@
 .footer {
-    &__container {
-        @include container;
+    @include container;
+    padding: 120px 0;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 60px;
     }
 
-    // .footer__menu
-    &__menu {
-        .menu__item {
-            display: block;
-            margin: 0 0 15px 0;
+}
 
-            &:last-child {
-                margin-bottom: 0;
-            }
+.footer-first-container {
+    @include flexBox;
+}
 
-            // & + .menu__item {
-            //     margin: 0 0 15px 0;
-            // }
+.footer-first-content {
+
+    &__title {
+        @include fonts($font_family_title, 40px, 700, 52px);
+        color: $violet-dark;
+    }
+
+    &__text {
+        @include fonts($font_family_body, 18px, 500, 29px);
+        color: $gray-dark;
+        margin: 20px 0;
+    }
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 70px 0;
+}
+
+.footer-data {
+
+    &__title {
+        @include fonts($font_family_body, 20px, 600, 32px);
+        color: $violet-dark;
+    }
+
+    &__text {
+        @include fonts($font_family_body, 16px, 500, 29px);
+        color: $violet-dark;
+    }
+    &__mail-tel {
+        @include fonts($font_family_body, 16px, 400, 29px);
+        display: block;
+        text-decoration: none;
+        margin: 10px 0 0 0;
+        color: $violet-dark;
+    }
+ }
+
+.footer-nav {
+
+    &__about {
+        margin: 8px 0 0 0;
+    }
+    &__help {
+        margin: 8px 0 0 0;
+    }
+    &__social-media {
+        margin: 8px 0 0 0;
+    }
+
+    &__title {
+        @include fonts($font_family_body, 16px, 600, 26px);
+        margin-bottom: 30px;
+        color: $violet-dark;
+    }
+
+    &__list {
+        list-style: none;
+    }
+    &__item {
+        margin-top: 10px;
+    }
+
+    &__link {
+        @include fonts($font_family_body, 16px, 500, 26px);
+        text-decoration: none;
+        color: $gray-dark;
+    }
+        &__link:hover {
+            @include width-height(50px, 50px);
+            color: $violet-middle;
+        }
+ }
+
+.media-icons {
+    display: flex;
+    gap: 15px;
+
+    &__facebook {
+
+        &:hover circle {
+            stroke: #3B5998;
+        }
+        &:hover path {
+            fill: #3B5998;
+        }
+    }
+
+    &__twitter {
+
+        &:hover circle {
+            stroke: #00ACEE;
+        }
+        &:hover path {
+            fill: #00ACEE;
+        }
+    }
+
+    &__instagram {
+
+        &:hover circle {
+            stroke: #C13584;
+        }
+        &:hover path {
+            fill: #C13584;
         }
     }
 }
+
+.icon {
+    @include width-height(50px, 50px);
+
+    &:hover circle {
+        opacity: 100%;
+        fill: #FFFFFF;
+    }
+}
+
+.footer-copyright {
+    @include fonts($font_family_body, 12px, 300, 22px);
+    color: $violet-dark;
+}
+

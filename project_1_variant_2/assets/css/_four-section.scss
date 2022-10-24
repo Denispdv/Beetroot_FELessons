@@ -1,0 +1,89 @@
+.four-section {
+    position: relative;
+    display: block;
+    border-radius: 50px;
+    z-index: 1;
+    margin-top: 120px;
+    background: $blue-medium;
+
+        &::before {
+            
+            position: absolute;
+            content: url(../img/bg-testimonials_1.png);
+            top: 0;
+            left: 0;
+            z-index: -1;
+    }
+
+        &::after {
+            @include posn-top_rt(absolute, 0, 0, -1);
+            content: url(../img/bg-testimonials_2.png);
+    }
+
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 80px;
+        gap: 100px;
+    }
+
+}
+
+.four-section__title {
+    @include fonts($font_family_title, 40px, 700, 52px);
+    text-align: center;
+    padding: 80px 0;
+    color: $gray-dark;
+
+}
+
+.four-section__card {
+    max-width: 465px;
+    height: 300px;
+    display: flex;
+    border: 1px solid $violet;
+    border-radius: 50px;
+    box-shadow: 0px 5px 5px rgb(75 93 104 / 10%);
+    background: $white;
+}
+
+.card {
+
+    &__foto {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+    padding-left: 30px;
+    background: $white;
+    }
+
+    &__img {
+        border-radius: 45px;
+    }
+
+}
+
+.four-section-card_info{
+    padding: 50px 0 50px 15px;
+}
+
+.card_info__name {
+    @include fonts($font_family_body, 16px, 500, 26px);
+    color: $violet-dark; 
+}
+
+.card_info__link {
+    @include fonts($font_family_body, 14px, 500, 22px);
+    margin-bottom: 20px;
+    display: flex;
+    text-decoration: none;
+    color: $violet;
+}
+
+.card_info__text {
+    @include fonts($font_family_body, 16px, 400, 26px);
+    color: $gray-dark;
+}

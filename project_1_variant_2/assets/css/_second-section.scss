@@ -1,0 +1,23 @@
+.second-section {
+    @include flexBox;
+    position: relative;
+    padding: 75px 70px;
+    border-radius: 50px;
+    background: $pink-medium;
+    margin-bottom: 120px;
+
+    &__content {
+        max-width: 500px;
+    }
+
+    &__title {
+        @include fonts($font_family_title, 40px, 700, 52px);
+        margin-bottom: 40px;
+        color: $violet-dark;
+    }
+
+    &__text {
+        @include fonts($font_family_body, 18px, 500, 29px);
+        color: $gray-dark;
+    }
+}
