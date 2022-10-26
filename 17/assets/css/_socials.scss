@@ -1,0 +1,17 @@
+.socials {
+    @include flex-row-center;
+    gap: 5px;  
+
+        &__link {
+		    width: 30px;
+		    height: 30px;
+		
+            &:hover path {
+                fill: $gold;
+		    }
+            &:hover circle {
+                stroke: $gold;
+		    }
+
+       }
+}

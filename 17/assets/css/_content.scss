@@ -1,0 +1,129 @@
+.content {
+    max-width: 1030px;
+    margin: 0 auto;
+
+    &__wrapper {
+        display: flex;
+        position: relative;
+    }
+
+    &__left {
+        width: 50%;
+        display: flex;
+        padding: 65px 85px 65px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+        .left--inner-padding {
+            padding: 15px;
+            position: relative;
+    }
+
+    &__divider-center {
+        margin-top: 40px;
+        position: absolute;
+        right: 50%;
+        height: 90%;
+        border: 1px solid $gold;
+    }
+
+    &__right {
+        width: 50%;
+        display: flex;
+        padding: 65px 0 65px 85px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__info {
+        @include flex-column-center; /* display: flex; flex-direction: column; align-items: center; */    }
+
+    &__info + &__socials {
+        margin-top: 30px;
+        margin-bottom: 49px;
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        color: $grey;
+    }
+
+    &__divider-right {
+        width: 100px;
+        height: 0px;
+        margin: 30px 0;
+        border: 1px solid $gold;
+    }
+
+    &__subtitle {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: $grey;
+    }
+
+
+    &__text {
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: $grey-dark;
+    }
+
+    &__lines {
+        @include flex-row-center;
+        gap: 5px;
+        padding: 20px 0 25px 0;
+
+        .line-1 {
+            width: 10px;
+            height: 4px;
+            background-color: $gold;
+        }
+        .line-2 {
+            width: 20px;
+            height: 4px;
+            background-color: $gold;
+        }
+    }
+
+    &__button {
+        width: 118px;
+        height: 24px;
+        padding: 5px 10px;
+        border: 1px solid $gold;
+
+        &:hover {
+            color: $white;
+            background-color: $gold;
+        }
+    }
+
+    &__button-text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: $grey;
+
+        &:hover {
+            color: $white;
+        }
+
+    }
+
+}
+
+

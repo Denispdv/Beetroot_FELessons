@@ -6,6 +6,14 @@
     padding: 20px 0;
     width: 100%;
     z-index: 99;
+    
+    @include _768 {
+        margin-bottom: 50px;
+    }
+
+    @include _480 {
+        margin-bottom: 30px;
+    }
 
     &__container {
         @include container;

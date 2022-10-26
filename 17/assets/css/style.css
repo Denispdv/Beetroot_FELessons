@@ -1,0 +1,221 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 121px 0;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* display: flex; flex-direction: column; align-items: center; */
+  max-width: 450px;
+  margin: 0 auto;
+}
+.header__subtitle {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #898F8F;
+}
+.header__title {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #FFCC00;
+  margin-bottom: 40px;
+}
+.header__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: flex; align-items: center; justify-content: center; */
+}
+.header__line {
+  width: 210px;
+  border: 1px solid #FFCC00;
+}
+.header__icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 0 5px;
+}
+
+.content {
+  max-width: 1030px;
+  margin: 0 auto;
+}
+.content__wrapper {
+  display: flex;
+  position: relative;
+}
+.content__left {
+  width: 50%;
+  display: flex;
+  padding: 65px 85px 65px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.content .left--inner-padding {
+  padding: 15px;
+  position: relative;
+}
+.content__divider-center {
+  margin-top: 40px;
+  position: absolute;
+  right: 50%;
+  height: 90%;
+  border: 1px solid #FFCC00;
+}
+.content__right {
+  width: 50%;
+  display: flex;
+  padding: 65px 0 65px 85px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: flex; flex-direction: column; align-items: center; */
+}
+.content__info + .content__socials {
+  margin-top: 30px;
+  margin-bottom: 49px;
+}
+.content__title {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #666666;
+}
+.content__divider-right {
+  width: 100px;
+  height: 0px;
+  margin: 30px 0;
+  border: 1px solid #FFCC00;
+}
+.content__subtitle {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #666666;
+}
+.content__text {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+.content__lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px 0 25px 0;
+}
+.content__lines .line-1 {
+  width: 10px;
+  height: 4px;
+  background-color: #FFCC00;
+}
+.content__lines .line-2 {
+  width: 20px;
+  height: 4px;
+  background-color: #FFCC00;
+}
+.content__button {
+  width: 118px;
+  height: 24px;
+  padding: 5px 10px;
+  border: 1px solid #FFCC00;
+}
+.content__button:hover {
+  color: #ffffff;
+  background-color: #FFCC00;
+}
+.content__button-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #666666;
+}
+.content__button-text:hover {
+  color: #ffffff;
+}
+
+.border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.border__item {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.border--left-top {
+  top: 0;
+  border-left: 1px solid #FFCC00;
+  border-top: 1px solid #FFCC00;
+}
+.border--right-top {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #FFCC00;
+  border-right: 1px solid #FFCC00;
+}
+.border--left-bottom {
+  bottom: 0;
+  border-left: 1px solid #FFCC00;
+  border-bottom: 1px solid #FFCC00;
+}
+.border--right-bottom {
+  bottom: 0;
+  right: 0;
+  border-right: 1px solid #FFCC00;
+  border-bottom: 1px solid #FFCC00;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.socials__link {
+  width: 30px;
+  height: 30px;
+}
+.socials__link:hover path {
+  fill: #FFCC00;
+}
+.socials__link:hover circle {
+  stroke: #FFCC00;
+}/*# sourceMappingURL=style.css.map */

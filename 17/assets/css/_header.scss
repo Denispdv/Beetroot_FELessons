@@ -1,0 +1,42 @@
+
+.header {
+    &__container {
+        @include flex-column-center; /* display: flex; flex-direction: column; align-items: center; */
+        max-width: 450px;
+        margin: 0 auto;
+    }
+ 
+    &__subtitle {
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: $sub-text;
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 66px;
+        text-transform: uppercase;
+        color: $gold;
+        margin-bottom: 40px;
+    }
+
+    &__divider {
+        @include flex-row-center; /* display: flex; align-items: center; justify-content: center; */
+    }
+
+    &__line {
+        width: 210px;
+        border: 1px solid $gold;    }
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px 0 5px;
+    }
+}
