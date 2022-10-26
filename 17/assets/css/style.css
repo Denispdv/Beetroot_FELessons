@@ -145,6 +145,10 @@
   background-color: #FFCC00;
 }
 .content__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 118px;
   height: 24px;
   padding: 5px 10px;
