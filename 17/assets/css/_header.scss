@@ -32,7 +32,10 @@
 
     &__line {
         width: 210px;
-        border: 1px solid $gold;    }
+        border: none;
+        background-color: $gold;;
+        height: 1px;
+    }
 
     &__icon {
         width: 20px;

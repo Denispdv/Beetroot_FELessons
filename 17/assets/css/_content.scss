@@ -5,6 +5,7 @@
     &__wrapper {
         display: flex;
         position: relative;
+        margin-top: 40px;
     }
 
     &__left {
@@ -22,10 +23,9 @@
     }
 
     &__divider-center {
-        margin-top: 40px;
         position: absolute;
         right: 50%;
-        height: 90%;
+        height: 100%;
         border: 1px solid $gold;
     }
 
@@ -56,9 +56,10 @@
 
     &__divider-right {
         width: 100px;
-        height: 0px;
+        height: 1px;
         margin: 30px 0;
-        border: 1px solid $gold;
+        border: none;
+        background-color: $gold;
     }
 
     &__subtitle {
