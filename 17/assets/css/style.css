@@ -81,7 +81,7 @@
   position: absolute;
   right: 50%;
   height: 100%;
-  border: 1px solid #FFCC00;
+  border: 0.5px solid #FFCC00;
 }
 .content__right {
   width: 50%;
