@@ -1,0 +1,22 @@
+.first-screen {
+    position: relative;
+
+        &__content {
+            position: absolute;
+            width: 770px;
+            top: 100px;
+            left: 135px;
+        }
+
+        &__title {
+            font-family: "Red Hat Display";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            letter-spacing: 0.05em;
+            color: $black;
+
+            
+        }
+}

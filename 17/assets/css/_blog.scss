@@ -1,0 +1,109 @@
+.blog {
+    
+    &__container {
+        @include container;
+
+    }
+
+    &__title {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 64px;
+        padding: 50px 0px;
+        letter-spacing: 0.05em;
+        color: $black;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__img {
+        width: 50%;
+        max-width: 570px;
+        height: auto;
+    }
+
+    &__description {
+        width: 448px;
+    }
+
+}
+
+.description {
+
+    &__category {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: 0.1em;
+        color: $Grey500;
+        padding-bottom: 30px;
+    }
+    
+    &__title {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 38px;
+        letter-spacing: 0.1em;
+        color: $black;
+        padding-bottom: 15px;
+    }
+
+    &__data {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: 0.1em;
+        color: $Grey500;
+        margin-bottom: 50px;
+    }
+    
+        &__text {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: 0.05em;
+        color: $Grey700;
+
+            &__hover-text {
+                display: none;
+                margin-left: 15px;
+                padding-right: 15px;
+                line-height: 27px;
+                letter-spacing: 0.1em;
+                color: $black;
+            }
+
+            &:hover .description__text__hover-text {
+                display: inline-block;
+                cursor: pointer;
+            }
+
+            &:hover .description__text__arrow-svg path {
+                fill: $black;
+                cursor: pointer;
+            }
+    }
+
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+
+
+
