@@ -5,6 +5,10 @@
         text-align: center;
         margin-bottom: 50px;
         color: $violet-dark;
+
+        @media screen and (max-width: 1200px) {
+            margin-bottom: 21px;
+        }
     }
 
     &__text {
@@ -13,6 +17,10 @@
         text-align: center;
         margin: 0 auto 80px auto;
         color: $gray-dark;
+
+        @media screen and (max-width: 1200px) {
+            margin: 0 auto 40px auto;
+        }
     }
 }
 
@@ -20,6 +28,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px 80px;
+
+    @media screen and (max-width: 1200px) {
+        grid-gap: 50px 80px;
+    }
+
+    @media screen and (max-width: 992px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px 40px;
+    }
+
 }
 
 .cards {
@@ -28,6 +47,11 @@
     z-index: 1;
     border-radius: 50px;
     margin-left: auto;
+
+    @media screen and (max-width: 1180px) {
+        margin: 0 auto;
+    }
+
 
     &_first {
         background: #F0FAF9;
@@ -65,6 +89,11 @@
         position: absolute;
         top: 100px;
         left: -140px;
+
+        @media screen and (max-width: 1180px) {
+            display: none;;
+    
+        }
     }
  
     &__content {

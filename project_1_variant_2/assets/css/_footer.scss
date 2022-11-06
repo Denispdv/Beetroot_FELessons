@@ -2,17 +2,51 @@
     @include container;
     padding: 120px 0;
 
+    @media screen and (max-width: 1200px) {
+        margin-left: 35px;
+        margin-right: 35px;
+        padding: 80px 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 40px 0;
+    }
+
+
     &__logo {
         display: flex;
         align-items: center;
         gap: 20px;
         padding-bottom: 60px;
+
+        @media screen and (max-width: 768px) {
+            padding-bottom: 40px;
+        }
     }
 
+    &__data {
+        @media screen and (max-width: 768px) {
+            text-align: center;
+        }
+    }
+
+    &__footer-copyright {
+        @media screen and (max-width: 768px) {
+            text-align: center;
+        }
+    }
 }
 
 .footer-first-container {
     @include flexBox;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
 }
 
 .footer-first-content {
@@ -34,9 +68,17 @@
     display: flex;
     justify-content: space-between;
     padding: 80px 0 70px 0;
+
+    @media screen and (max-width: 768px) {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
 }
 
 .footer-data {
+
+
 
     &__title {
         @include fonts($font_family_body, 20px, 600, 32px);
@@ -53,10 +95,25 @@
         text-decoration: none;
         margin: 10px 0 0 0;
         color: $violet-dark;
+        
+        @media screen and (max-width: 768px) {
+            margin: 5px 0 0 0;
+        }
+
     }
  }
 
 .footer-nav {
+
+    &__menu {
+        display: contents;
+
+        @media screen and (max-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+    }
+    }
 
     &__about {
         margin: 8px 0 0 0;
@@ -72,6 +129,11 @@
         @include fonts($font_family_body, 16px, 600, 26px);
         margin-bottom: 30px;
         color: $violet-dark;
+
+        @media screen and (max-width: 768px) {
+            text-align: center;
+            margin: 20px;
+        }
     }
 
     &__list {
@@ -90,11 +152,16 @@
             @include width-height(50px, 50px);
             color: $violet-middle;
         }
+
  }
 
 .media-icons {
     display: flex;
     gap: 15px;
+
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+    }
 
     &__facebook {
 

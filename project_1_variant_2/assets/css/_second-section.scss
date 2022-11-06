@@ -7,9 +7,16 @@
     margin-bottom: 120px;
 
     @media screen and (max-width: 1200px) {
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    @media screen and (max-width: 992px) {
         flex-direction: column;
         align-items: center;
         padding: 30px 20px;
+        align-items: center;
+        margin-bottom: 40px;
     }
 
     &__content {
@@ -20,10 +27,27 @@
         @include fonts($font_family_title, 40px, 700, 52px);
         margin-bottom: 40px;
         color: $violet-dark;
+
+        @media screen and (max-width: 992px) {
+            text-align: center;
+        }
     }
 
     &__text {
         @include fonts($font_family_body, 18px, 500, 29px);
         color: $gray-dark;
+
+        @media screen and (max-width: 992px) {
+            text-align: center;
+        }
     }
+
+    &__foto-img {
+        @media screen and (max-width: 992px) {
+            width: 100%;
+        }
+
+    }
+
+
 }

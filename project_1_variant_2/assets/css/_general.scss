@@ -7,3 +7,28 @@
 }
 
 
+.header,
+.main,
+.footer {
+
+    @media screen and (max-width: 1200px) {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    @media screen and (max-width: 992px) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    @media screen and (max-width: 576px) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+

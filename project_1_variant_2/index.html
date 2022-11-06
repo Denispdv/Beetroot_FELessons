@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -24,10 +41,7 @@
                         <rect x="26.5493" y="0.5" width="18.3099" height="35" rx="9.15493" fill="#F063B8"/>
                     </svg> 
                 
-        
                 <nav class="header__menu menu">
-                    <input type="checkbox" class="nav__burger" id="nav-burger">
-                    <label for="nav-burger" class="nav__burger-img"></label>
                     <ul class="menu__list">
                         <li class="menu__item">
                             <a class="menu__link" href="#">About</a></li>
@@ -38,7 +52,6 @@
                         <li class="menu__item">
                             <a class="menu__link" href="#">Sign Up</a></li>
                     </ul>
-                    
                 </nav>
             </div>
                 <button class="header__button button" type="submit">
@@ -50,8 +63,12 @@
                         </svg>
                     </span>
                 </button>
-
             </div>
+            <label class="header__burger-label" for="header-burger">
+                <span class="header__burger header__burger-padding">
+                </span>
+            </label>
+
         </div>
     </header>
 
@@ -76,7 +93,7 @@
     
             <siction class="second-section">
                 <div class="second-section__foto">
-                    <img src="../project_1_variant_2/assets/img/second-screen-img.png" alt="">
+                    <img class="second-section__foto-img" src="../project_1_variant_2/assets/img/second-screen-img.png" alt="">
                 </div>
 
                 <div class="second-section__content">
@@ -233,7 +250,7 @@
                     1-232-3434</a>
             </div>
 
-            
+            <div class="footer-nav__menu">
                 <div class="footer-nav__about">
                     <h3 class="footer-nav__title title ">About</h3>
                     <ul class="footer-nav__list">
@@ -271,9 +288,11 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+               
             
 
-            <div class="footer-nav__social-media ">
+            <div class="footer-nav__social-media">
                 <h3 class="footer-nav__title title">Social Media</h3>
                 <div class="media-icons">
                     
@@ -306,7 +325,7 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="footer__footer-copyright footer-copyright">
             <p class="footer-copyright footer-text">© Datawarehouse™, 2020. All rights reserved.</p>
             <p class="footer-copyright footer-text">Company Registration Number: 21479524.</p>
         </div>

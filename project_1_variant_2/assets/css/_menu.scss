@@ -24,56 +24,5 @@
             color: $violet-middle;
         }
 
-        &__burger {
-            display: none;
-    
-            @media screen and (max-width: 768px) {
-                order: 2;
-    
-                &:checked~.nav__list {
-                    left: 0;
-                }
-    
-                &:checked~.nav__burger-img {
-                    transform: rotate(45deg);
-    
-                    &::before {
-                        opacity: 0;
-                    }
-    
-                    &::after {
-                        transform: rotate(90deg);
-                        top: 0px;
-                    }
-                }
-    
-            }
-        }
-        &__burger-img {
-            display: none;
-    
-            @media screen and (max-width: 768px) {
-                position: relative;
-                left: 0;
-                @include width-height(35px, 2px);
-                display: inline-block;
-                vertical-align: middle;
-                background: #000000;
-    
-                &::before,
-                &::after {
-                    content: "";
-                    position: absolute;
-                    top: 9px;
-                    display: inline-block;
-                    @include width-height(100%, 2px);
-                    background: #000000;
-                }
-    
-                &::after {
-                    top: -9px;
-                }
-            }
-        }
 }
         
