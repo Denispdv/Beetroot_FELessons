@@ -7,5 +7,21 @@
 }
 
 body {
-  background-color: 0;
-}/*# sourceMappingURL=style.css.map */
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #2C4058;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  background: linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+  color: #ffffff;
+}
+
+
+/*# sourceMappingURL=style.css.map */
