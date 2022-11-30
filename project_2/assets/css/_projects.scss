@@ -1,6 +1,6 @@
 .projects {
     overflow: hidden;
-    padding: 100px 0 140px;
+    padding-top: 100px;
 
     .wrapper {
         max-width: 1200px;
@@ -18,7 +18,7 @@
 .title-center {
     color: $dark-grey;
     text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .project {
@@ -56,9 +56,6 @@
         margin-top: 19px;
     }
 }
-
-
-
 
 .project1 {
     display: flex;
@@ -112,43 +109,11 @@
         line-height: 20px;
         color: $black;
     }
+
+    img {
+        height: 17px;
+        margin-right: 10px;
+    }
 }
-
-
-/* .project1__img {
-    position: relative;
-
-    &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        transform: translate(-260px,-70px);
-        background-color: $blue;
-        z-index: -100;
-    }
-} */
-
-/* .project2__img {
-    position: relative;
-
-    &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        transform: translate(260px,-70px);
-        background-color: $fiolet;
-        z-index: -100;
-    }
-} */
-
-
 
 

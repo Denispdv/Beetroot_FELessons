@@ -1,0 +1,19 @@
+.contact {
+
+    &__container {
+        width: 770px;
+        height: 450px;
+        margin: 0 auto;
+
+        background: url("../img/contact_background.png");
+    }
+
+    &__text {
+        font-family: 'FontAwesome';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #7E5AFF;
+    }
+}

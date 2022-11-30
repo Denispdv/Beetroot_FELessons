@@ -1,0 +1,15 @@
+.footer {
+    background: linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%);
+    color: $white;
+    height: 100vh; 
+    max-height: 549px;;
+
+    .wrapper {
+        background-image: url("../img/footer_background.png");
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 100%; 
+    }
+}
