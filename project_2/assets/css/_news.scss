@@ -5,9 +5,9 @@
 
     &__wrapper {
         background-image: url("../img/news_background.png");
+        background-position: center bottom;
         position: relative;
         background-repeat: no-repeat;
-        background-position: center;
         min-height: 100%;  
     }
 
@@ -23,7 +23,7 @@
     }
 }
 
-.slides {
+.slider {
     display: flex;
     gap: 30px;
     padding-top: 90px;

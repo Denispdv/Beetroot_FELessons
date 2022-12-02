@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&family=Source+Sans+Pro&family=Work+Sans&display=swap" rel="stylesheet">
     <title>Monticello</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
     <link rel="stylesheet" href="../project_2/assets/css/normalize.css">
     <link rel="stylesheet" href="../project_2/assets/css/reset.css">
     <link rel="stylesheet" href="../project_2/assets/css/style.css">
-    <link href="dist/hamburgers.css" rel="stylesheet">
 </head>
 <body>
     
@@ -132,7 +136,7 @@
         <div class="news__wrapper wrapper">
             <div class="line"></div>
             <h3 class="title news__title">LATEST NEWS</h3>
-            <div class="news__slides slides">
+            <div class="slider">
                 <div class="slide">
                     <div class="slide__img">
                         <img src="../project_2/assets/img/Article1.png" alt="building">
@@ -305,18 +309,20 @@
         <div class="wrapper">
             <div class="contact__container">
                 <div class="line"></div>
-                <h3 class="title title-gallery">GET IN TOUCH</h3>
+                <h3 class="contact__title titlet">GET IN TOUCH</h3>
                 <div class="contact__block">
                     <div>
-                        <p class="contact__text">91 Nolan Extensions Suite 670 </p>
-                        <p class="contact__text"><a href="">+001 356-868-2454</a></p>
-                        <p class="contact__text"><a href="">montichello@service.com</a></p>
-                        <p class="contact__text">From 07:05AM to 19:30PM</p>
+                        <p class="contact__text"><i class="fa-solid fa-location-dot"></i>91 Nolan Extensions Suite 670 </p>
+                        <p class="contact__text"><i class="fa-solid fa-phone"></i><a href="">+001 356-868-2454</a></p>
+                    
+                        <p class="contact__text"><i class="fa-solid fa-inbox"></i><a href="">montichello@service.com</a></p>
+                        <p class="contact__text"><i class="fa-regular fa-clock-three"></i>From 07:05AM to 19:30PM</p>
                     </div>
+ 
                     <form action="#" method="post" class="form">
-                        <input type="text" name="name" id="name" placeholder="Name">
-                        <input type="email" name="email" id="email" placeholder="Email">
-                        <button type="submit">SUBMIT</button>
+                        <input class="form__input" type="text" name="name" id="name" placeholder="Your name" required>
+                        <input class="form__input" type="email" name="email" id="email" placeholder="Email">
+                        <button class="buttons__btn" type="submit">SUBMIT</button>
                     </form>
                 </div>
             </div>
@@ -355,10 +361,16 @@
                     </a>
                 </div>
             </div>
-            <span>Copyrights © 2020 Montichello</span>
+            <span class="footer__copyr">Copyrights © 2020 Montichello</span>
         </div>
     </div>
 </footer>
 
+
+
+<script src="https://kit.fontawesome.com/17a7fa6643.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="../project_2/assets/js/index.js"></script>
 </body>
 </html>

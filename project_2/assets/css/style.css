@@ -237,9 +237,9 @@ h3 {
 }
 .news__wrapper {
   background-image: url("../img/news_background.png");
+  background-position: center bottom;
   position: relative;
   background-repeat: no-repeat;
-  background-position: center;
   min-height: 100%;
 }
 .news .line {
@@ -252,7 +252,7 @@ h3 {
   padding-top: 30px;
 }
 
-.slides {
+.slider {
   display: flex;
   gap: 30px;
   padding-top: 90px;
@@ -362,22 +362,71 @@ h3 {
   justify-content: center;
 }
 
-.contact__container {
+.contact {
   width: 770px;
   height: 450px;
   margin: 0 auto;
-  background: url("../img/contact_background.png");
+  background: #ffffff;
+  box-shadow: 0px -4px 30px rgba(133, 133, 133, 0.2);
+}
+.contact .wrapper {
+  width: 770px;
+  height: 450px;
+  margin: 0 auto;
+  background: url("../img/contact_MaskGroup.png");
+  background-repeat: no-repeat;
+}
+.contact__container {
+  padding: 60px;
+}
+.contact__title {
+  text-align: center;
+  padding-top: 30px;
+}
+.contact__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
 }
 .contact__text {
-  font-family: "FontAwesome";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.contact__text:last-child {
+  margin-bottom: 0px;
+}
+.contact a {
+  color: #000000;
+}
+.contact i {
   color: #7E5AFF;
+  padding-right: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.form__input {
+  width: 310px;
+  border: 0;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 14px;
+}
+
+.buttons__btn {
+  width: 140px;
 }
 
 .footer {
+  position: relative;
   background: linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%);
   color: #ffffff;
   height: 100vh;
@@ -388,6 +437,27 @@ h3 {
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   min-height: 100%;
+}
+.footer__container {
+  max-width: 770px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 203px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.footer__copyr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
