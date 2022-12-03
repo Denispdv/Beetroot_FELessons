@@ -102,10 +102,10 @@ h3 {
   transition: 0.3s;
 }
 
-.slider__content {
+.slider-header__content {
   text-align: center;
 }
-.slider__title {
+.slider-header__title {
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
@@ -114,7 +114,7 @@ h3 {
   color: #ffffff;
   padding-bottom: 20px;
 }
-.slider__text {
+.slider-header__text {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -256,6 +256,9 @@ h3 {
   display: flex;
   gap: 30px;
   padding-top: 90px;
+  min-width: 0;
+  position: relative;
+  padding: 0 50px;
 }
 
 .slide {
@@ -311,6 +314,41 @@ h3 {
   font-size: 14px;
   line-height: 17px;
   color: #55B7FF;
+}
+
+/* .slick-slider {
+} */
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 50px;
+}
+
+.slider.slick-arrow.slick-prew {
+  left: 0;
+  background: url(../img/Left_arrow.png) 0 0/100% no-repeat;
+}
+
+.slider.slick-arrow.slick-next {
+  right: 0;
+  background: url(../img/Right_arrow.png) 0 0/100% no-repeat;
+}
+
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery {
