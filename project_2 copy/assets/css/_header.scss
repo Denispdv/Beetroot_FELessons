@@ -1,0 +1,113 @@
+.header {
+    background: linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+    color: $white;
+    height: 100vh; 
+
+    &__wrapper {
+        background-image: url("../img/MaskGroup.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh; 
+    }
+
+    &__nav {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 53px;
+    }
+
+    &__logo {
+        margin-right: 10px;
+    }
+}
+
+.about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 93px;
+
+    &__item {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: $white;
+        cursor: pointer;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 9px;
+            height: 9px;
+            border: 1px solid #ffffff ;
+            border-radius: 50%;
+            top: calc(50% - 4.5px);
+            left: calc(-14px - 4.5px);
+        }
+    }
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    & svg {
+        cursor: pointer;
+
+        &:hover>path {
+            fill: $dark-grey;
+            transition: 0.3s;
+        }
+
+        &:hover>circle {
+            stroke: $dark-grey;
+            transition: 0.3s;
+        }
+    }
+}
+
+.slider-header {
+
+    &__content {
+        text-align: center;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 98px;
+        letter-spacing: 0.1em;
+        color: $white;
+        padding-bottom: 20px;
+    }
+    
+    &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.3em;
+    color: $white;
+    }
+}
+
+.arrow {
+    padding-bottom: 50px;
+}

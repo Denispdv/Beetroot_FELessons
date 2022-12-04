@@ -1,4 +1,4 @@
-$('.slider').slick({
+/* $('.slider').slick({
   infinite:true
 })
 
@@ -21,7 +21,7 @@ $(document).ready(function () {
       autoplay: true,
       autoplaySpeed: 7000,
   });
-});
+}); */
 
 /* const swiper = new Swiper('.slider', {
   // Optional parameters
@@ -40,10 +40,10 @@ $(document).ready(function () {
   },
 }); */
 
-/* $(document).ready(function(){
+$(document).ready(function(){
   $('.slider').slick({
     arrows:true,
     dots:true,
   
   });
-}); */
+});

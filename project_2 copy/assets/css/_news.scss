@@ -26,10 +26,9 @@
 .slider {
     display: flex;
     gap: 30px;
-    padding-top: 90px;
     min-width: 0;
     position: relative;
-    padding: 0 50px;
+    padding-top: 90px;
 }
 
 .slide {
@@ -98,52 +97,3 @@
 
 
 
-/* .slick-slider {
-} */
-
-.slick-list {
-    overflow: hidden;
-}
-
-.slick-track {
-    display: flex;
-}
-
-.slider .slick-arrow {
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    font-size: 0;
-    width: 30px;
-    height: 50px;
-}
-
-.slider.slick-arrow.slick-prew {
-    left: 0;
-    background: url(../img/Left_arrow.png) 0 0 / 100% no-repeat;
-}
-
-.slider.slick-arrow.slick-next {
-    right: 0;
-    background: url(../img/Right_arrow.png) 0 0 / 100% no-repeat;
-}
-
-.slider .slick-dots {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slider .slick-dots li {
-    list-style: none;
-    margin: 0 10 px;
-}
-
-.slider .slick-dots button {
-    font-size: 0;
-    width: 10px;
-    height: 10px;
-    background-color: #ffffff;
-    border-radius: 50%;
-
-}
