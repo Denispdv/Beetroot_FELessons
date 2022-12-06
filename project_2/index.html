@@ -11,6 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&family=Source+Sans+Pro&family=Work+Sans&display=swap" rel="stylesheet">
     <title>Monticello</title>
 
+<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+ -->
+
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+
     <link rel="stylesheet" href="../project_2/assets/css/normalize.css">
     <link rel="stylesheet" href="../project_2/assets/css/reset.css">
     <link rel="stylesheet" href="../project_2/assets/css/style.css">
@@ -25,10 +34,10 @@
                     <img src="../project_2/assets/img/Monticello_logo.svg" alt="monticello_logo">
                 </div>
                 <ul class="menu">
-                    <li class="menu__item"><a href="#about">ABOUT US</a></li>
-                    <li class="menu__item"><a href="#project">PROJECTS</a></li>
-                    <li class="menu__item"><a href="#news">NEWS</a></li>
-                    <li class="menu__item"><a href="#contact">CONTACT</a></li>
+                    <li class="menu__item"><span href="about">ABOUT US</span></li>
+                    <li class="menu__item"><span href="project">PROJECTS</span></li>
+                    <li class="menu__item"><span href="news">NEWS</span></li>
+                    <li class="menu__item"><span href="contact">CONTACT</span></li>
                 </ul>
                 
                 <div class="social-link">
@@ -64,14 +73,12 @@
             </div>
 
             <div class="arrow">
-                <a href="">
                     <svg width="42" height="40" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M24.9048 19.111C24.9606 19.1669 24.9885 19.231 24.9885 19.3036C24.9885 19.3761 24.9606 19.4403 24.9048 19.4961L21.0041 23.3968C20.9483 23.4526 20.8841 23.4805 20.8116 23.4805C20.7391 23.4805 20.6749 23.4526 20.6191 23.3968L16.7184 19.4961C16.6626 19.4403 16.6347 19.3761 16.6347 19.3036C16.6347 19.231 16.6626 19.1669 16.7184 19.111L17.1369 18.6925C17.1927 18.6367 17.2569 18.6088 17.3295 18.6088C17.402 18.6088 17.4662 18.6367 17.522 18.6925L20.8116 21.9821L24.1012 18.6925C24.157 18.6367 24.2212 18.6088 24.2937 18.6088C24.3663 18.6088 24.4305 18.6367 24.4863 18.6925L24.9048 19.111Z" 
                         fill="white"/>
                         <path opacity="0.7" d="M40.5447 20C40.5447 30.7685 31.7958 39.5 21.0011 39.5C10.2064 39.5 1.45746 30.7685 1.45746 20C1.45746 9.23147 10.2064 0.5 21.0011 0.5C31.7958 0.5 40.5447 9.23147 40.5447 20Z" 
                         stroke="white"/>
                     </svg>
-                </a>
             </div>
         </div>
     </div>
@@ -132,147 +139,167 @@
     </article>
     <article class="news" id="news">
         <div class="news__wrapper wrapper">
-            <div class="line"></div>
-            <h3 class="title news__title">LATEST NEWS</h3>
-            <div class="slider">
-                <div class="slide">
-                    <div class="slide__img">
-                        <img src="../project_2/assets/img/Article1.png" alt="building">
-                    </div>
-                    <section class="slide__block">
-                        <div class="slide__text">
-                            <h3 class="slide__title title">SEE THE UNMATCHED 
-                                BEAUTY OF THE GREAT.
-                            </h3>
-                            <p class="slide__text">Free directories: directories are perfect 
-                                for customers that are searching for...
-                            </p>
-                        </div>
-                        <div class="slide__author">
-                            <img class="slide__avatar" src="../project_2/assets/img/Author1.png" alt="avatar">
-                            <div class="slide__name">
-                                <h4 class="slide__subtitle">ALJA BRUN</h4>
-                                <span class="slide__date">20 Jan 2020</span>
+            <div>
+                <div class="news__line"></div>
+                <h3 class="title news__title">LATEST NEWS</h3>
+        
+                <div class="swiper my-slider">
+        
+                    <div class="swiper-wrapper">
+        
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__img">
+                                <img src="../project_2 copy/assets/img/Article1.png" alt="building">
                             </div>
+        
+                            <section class="swiper-slide__block">
+                                <div class="swiper-slide__text">
+                                    <h3 class="swiper-slide__title title">SEE THE UNMATCHED 
+                                        BEAUTY OF THE GREAT.
+                                    </h3>
+                                    <p class="swiper-slide__text">Free directories: directories are perfect 
+                                        for customers that are searching for...
+                                    </p>
+                                </div>
+                                <div class="swiper-slide__author">
+                                    <img class="swiper-slide__avatar" src="../project_2 copy/assets/img/Author1.png" alt="avatar">
+                                    <div class="swiper-slide__name">
+                                        <h4 class="swiper-slide__subtitle">ALJA BRUN</h4>
+                                        <span class="swiper-slide__date">20 Jan 2020</span>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
-                    </section>
-                </div>
-
-                <div class="slide">
-                    <div class="slide__img">
-                        <img src="../project_2/assets/img/Article2.png" alt="building">
-                    </div>
-                    <section class="slide__block">
-                        <div class="slide__text">
-                            <h3 class="slide__title title">EFFECTIVE ADVERTISING 
-                                POINTERS.
-                            </h3>
-                            <p class="slide__text">Having a home based business is a 
-                                wonderful asset to your life...
-                            </p>
-                        </div>
-                        <div class="slide__author">
-                            <img class="slide__avatar" src="../project_2/assets/img/Author2.png" alt="avatar">
-                            <div class="slide__name">
-                                <h4 class="slide__subtitle">DOMINIC FREEMAN</h4>
-                                <span class="slide__date">13 Dec 2019</span>
+        
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__img">
+                                <img src="../project_2 copy/assets/img/Article2.png" alt="building">
                             </div>
+        
+                            <section class="swiper-slide__block">
+                                <div class="swiper-slide_text">
+                                    <h3 class="swiper-slide__title title">SEE THE UNMATCHED 
+                                        BEAUTY OF THE GREAT.
+                                    </h3>
+                                    <p class="swiper-slide__text">Free directories: directories are perfect 
+                                        for customers that are searching for...
+                                    </p>
+                                </div>
+                                <div class="swiper-slide__author">
+                                    <img class="swiper-slide__avatar" src="../project_2 copy/assets/img/Author2.png" alt="avatar">
+                                    <div class="swiper-slide__name">
+                                        <h4 class="swiper-slide__subtitle">DOMINIC FREEMAN</h4>
+                                        <span class="swiper-slide__date">13 Dec 2019</span>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
-                    </section>
-                </div>
-
-                <div class="slide">
-                    <div class="slide__img">
-                        <img src="../project_2/assets/img/Article3.png" alt="building">
-                    </div>
-                    <section class="slide__block">
-                        <div class="slide__text">
-                            <h3 class="slide__title title">HYPNOTIZE YOURSELF INTO 
-                                THE GHOST.
-                            </h3>
-                            <p class="slide__text">There are many things that are 
-                                important to catalog design...
-                            </p>
-                        </div>
-                        <div class="slide__author">
-                            <img class="slide__avatar" src="../project_2/assets/img/Author3.png" alt="avatar">
-                            <div class="slide__name">
-                                <h4 class="slide__subtitle">ALICE WARD</h4>
-                                <span class="slide__date">30 Nov 2019</span>
+        
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__img">
+                                <img src="../project_2 copy/assets/img/Article3.png" alt="building">
                             </div>
+        
+                            <section class="swiper-slide__block">
+                                <div class="swiper-slide__text">
+                                    <h3 class="swiper-slide__title title">SEE THE UNMATCHED 
+                                        BEAUTY OF THE GREAT.
+                                    </h3>
+                                    <p class="swiper-slide__text">Free directories: directories are perfect 
+                                        for customers that are searching for...
+                                    </p>
+                                </div>
+                                <div class="swiper-slide__author">
+                                    <img class="swiper-slide__avatar" src="../project_2 copy/assets/img/Author3.png" alt="avatar">
+                                    <div class="swiper-slide__name">
+                                        <h4 class="swiper-slide__subtitle">ALICE WARD</h4>
+                                        <span class="swiper-slide__date">30 Nov 2019</span>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
-                    </section>
-                </div>
-
-                <div class="slide">
-                    <div class="slide__img">
-                        <img src="../project_2/assets/img/Article1.png" alt="building">
-                    </div>
-                    <section class="slide__block">
-                        <div class="slide__text">
-                            <h3 class="slide__title title">SEE THE UNMATCHED 
-                                BEAUTY OF THE GREAT.
-                            </h3>
-                            <p class="slide__text">Free directories: directories are perfect 
-                                for customers that are searching for...
-                            </p>
-                        </div>
-                        <div class="slide__author">
-                            <img class="slide__avatar" src="../project_2/assets/img/Author1.png" alt="avatar">
-                            <div class="slide__name">
-                                <h4 class="slide__subtitle">ALJA BRUN</h4>
-                                <span class="slide__date">20 Jan 2020</span>
+        
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__img">
+                                <img src="../project_2 copy/assets/img/Article1.png" alt="building">
                             </div>
+        
+                            <section class="swiper-slide__block">
+                                <div class="swiper-slide__text">
+                                    <h3 class="swiper-slide__title title">SEE THE UNMATCHED 
+                                        BEAUTY OF THE GREAT.
+                                    </h3>
+                                    <p class="swiper-slide__text">Free directories: directories are perfect 
+                                        for customers that are searching for...
+                                    </p>
+                                </div>
+                                <div class="swiper-slide__author">
+                                    <img class="swiper-slide__avatar" src="../project_2 copy/assets/img/Author1.png" alt="avatar">
+                                    <div class="swiper-slide__name">
+                                        <h4 class="swiper-slide__subtitle">ALJA BRUN</h4>
+                                        <span class="swiper-slide__date">20 Jan 2020</span>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
-                    </section>
-                </div>
-
-                <div class="slide">
-                    <div class="slide__img">
-                        <img src="../project_2/assets/img/Article2.png" alt="building">
-                    </div>
-                    <section class="slide__block">
-                        <div class="slide__text">
-                            <h3 class="slide__title title">EFFECTIVE ADVERTISING 
-                                POINTERS.
-                            </h3>
-                            <p class="slide__text">Having a home based business is a 
-                                wonderful asset to your life...
-                            </p>
-                        </div>
-                        <div class="slide__author">
-                            <img class="slide__avatar" src="../project_2/assets/img/Author2.png" alt="avatar">
-                            <div class="slide__name">
-                                <h4 class="slide__subtitle">DOMINIC FREEMAN</h4>
-                                <span class="slide__date">13 Dec 2019</span>
+        
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__img">
+                                <img src="../project_2 copy/assets/img/Article2.png" alt="building">
                             </div>
+        
+                            <section class="swiper-slide__block">
+                                <div class="swiper-slide_text">
+                                    <h3 class="swiper-slide__title title">SEE THE UNMATCHED 
+                                        BEAUTY OF THE GREAT.
+                                    </h3>
+                                    <p class="swiper-slide__text">Free directories: directories are perfect 
+                                        for customers that are searching for...
+                                    </p>
+                                </div>
+                                <div class="swiper-slide__author">
+                                    <img class="swiper-slide__avatar" src="../project_2 copy/assets/img/Author2.png" alt="avatar">
+                                    <div class="swiper-slide__name">
+                                        <h4 class="swiper-slide__subtitle">DOMINIC FREEMAN</h4>
+                                        <span class="swiper-slide__date">13 Dec 2019</span>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
-                    </section>
-                </div>
-
-                <div class="slide">
-                    <div class="slide__img">
-                        <img src="../project_2/assets/img/Article3.png" alt="building">
-                    </div>
-                    <section class="slide__block">
-                        <div class="slide__text">
-                            <h3 class="slide__title title">HYPNOTIZE YOURSELF INTO 
-                                THE GHOST.
-                            </h3>
-                            <p class="slide__text">There are many things that are 
-                                important to catalog design...
-                            </p>
-                        </div>
-                        <div class="slide__author">
-                            <img class="slide__avatar" src="../project_2/assets/img/Author3.png" alt="avatar">
-                            <div class="slide__name">
-                                <hh4 class="slide__subtitle">ALICE WARD</hh4>
-                                <span class="slide__date">30 Nov 2019</span>
+        
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__img">
+                                <img src="../project_2 copy/assets/img/Article3.png" alt="building">
                             </div>
+        
+                            <section class="swiper-slide__block">
+                                <div class="swiper-slide__text">
+                                    <h3 class="swiper-slide__title title">SEE THE UNMATCHED 
+                                        BEAUTY OF THE GREAT.
+                                    </h3>
+                                    <p class="swiper-slide__text">Free directories: directories are perfect 
+                                        for customers that are searching for...
+                                    </p>
+                                </div>
+                                <div class="swiper-slide__author">
+                                    <img class="swiper-slide__avatar" src="../project_2 copy/assets/img/Author3.png" alt="avatar">
+                                    <div class="swiper-slide__name">
+                                        <h4 class="swiper-slide__subtitle">ALICE WARD</h4>
+                                        <span class="swiper-slide__date">30 Nov 2019</span>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
-                    </section>
+                            
+                    </div>
+                    
                 </div>
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
             </div>
+    
         </div>
     </article>
 
@@ -303,6 +330,10 @@
         </div>
     </article>
 
+    <article class="section-map">
+        <div class="map"></div>
+    </article>
+
     <article class="contact" id="contact">
         <div class="wrapper">
             <div class="contact__container">
@@ -314,7 +345,7 @@
                         <p class="contact__text"><i class="fa-solid fa-phone"></i><a href="">+001 356-868-2454</a></p>
                     
                         <p class="contact__text"><i class="fa-solid fa-inbox"></i><a href="">montichello@service.com</a></p>
-                        <p class="contact__text"><i class="fa-regular fa-clock-three"></i>From 07:05AM to 19:30PM</p>
+                        <p class="contact__text"><i class="fa-regular fa-clock"></i>From 07:05AM to 19:30PM</p>
                     </div>
  
                     <form action="#" method="post" class="form">
@@ -364,33 +395,11 @@
     </div>
 </footer>
 
-<!-- <div class="sliders">
-    <div class="sliderrr__item">
-        <img src="../project_2/assets/img/Article1.png" alt="">
-    </div>
-    <div class="sliderrr__item">
-        <img src="../project_2/assets/img/Article2.png" alt="">
-    </div>
-    <div class="sliderrr__item">
-        <img src="../project_2/assets/img/Article3.png" alt="">
-    </div>
-    <div class="sliderrr__item">
-        <img src="../project_2/assets/img/Article1.png" alt="">
-    </div>
-    <div class="sliderrr__item">
-        <img src="../project_2/assets/img/Article2.png" alt="">
-    </div>
-    <div class="sliderrr__item">
-        <img src="../project_2/assets/img/Article3.png" alt="">
-    </div>
 
-</div> -->
-
-
-<script src="https://kit.fontawesome.com/17a7fa6643.js" crossorigin="anonymous"></script>
-
-
-<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="../project_2/assets/js/slick.min.js"></script>
 <script src="../project_2/assets/js/index.js"></script>
 </body>

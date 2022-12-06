@@ -125,6 +125,7 @@ h3 {
 
 .arrow {
   padding-bottom: 50px;
+  cursor: pointer;
 }
 
 .projects {
@@ -242,38 +243,42 @@ h3 {
   background-repeat: no-repeat;
   min-height: 100%;
 }
-.news .line {
-  border-bottom: 1px solid #ffffff;
-  padding-top: 120px;
-}
 .news__title {
   text-align: center;
   color: #ffffff;
-  padding-top: 30px;
+  padding: 30px 0 90px 0;
+}
+.news__line {
+  border-bottom: 1px solid #fff;
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 120px;
 }
 
+/* .my-slider {
+    width: 1170px;
+    height: 514px;
+} */
 .slider {
   display: flex;
-  gap: 30px;
-  padding-top: 90px;
+  /* gap: 30px; */
   min-width: 0;
   position: relative;
-  padding: 0 50px;
 }
 
-.slide {
-  background-color: #ffffff;
-  width: 370px;
+.swiper-slide {
+  max-width: 370px;
   height: 514px;
+  background: #fff;
 }
-.slide__img {
+.swiper-slide__img {
   width: 370px;
   height: 240px;
 }
-.slide__block {
+.swiper-slide__block {
   margin: 25px 20px 30px;
 }
-.slide__title {
+.swiper-slide__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -281,7 +286,7 @@ h3 {
   line-height: 27px;
   color: #2C4058;
 }
-.slide__text {
+.swiper-slide__text {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -290,16 +295,16 @@ h3 {
   color: #2C4058;
   margin-top: 15px;
 }
-.slide__author {
+.swiper-slide__author {
   display: flex;
   align-items: end;
   gap: 20px;
   margin-top: 39px;
 }
-.slide__avatar {
+.swiper-slide__avatar {
   border-radius: 45px;
 }
-.slide__subtitle {
+.swiper-slide__subtitle {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -307,7 +312,7 @@ h3 {
   line-height: 22px;
   color: #2C4058;
 }
-.slide__date {
+.swiper-slide__date {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -316,52 +321,45 @@ h3 {
   color: #55B7FF;
 }
 
-/* .slick-slider {
-} */
-.slick-list {
-  overflow: hidden;
+.swiper-wrapper {
+  gap: 30px;
+  position: relative;
 }
 
-.slick-track {
-  display: flex;
+.swiper-pointer-events {
+  max-width: 1200px;
 }
 
-.slider .slick-arrow {
-  position: absolute;
-  top: 50%;
-  z-index: 10;
-  font-size: 0;
-  width: 30px;
-  height: 50px;
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #fff;
+  font-size: 10px;
 }
 
-.slider.slick-arrow.slick-prew {
-  left: 0;
-  background: url(../img/Left_arrow.png) 0 0/100% no-repeat;
+.swiper-button-next, .swiper-button-prev {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
-.slider.slick-arrow.slick-next {
-  right: 0;
-  background: url(../img/Right_arrow.png) 0 0/100% no-repeat;
+.swiper-pagination {
+  padding: 40px 0 120px 0;
 }
 
-.slider .slick-dots {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slider .slick-dots li {
-  list-style: none;
-  margin: 0 10 px;
-}
-
-.slider .slick-dots button {
-  font-size: 0;
+.swiper-pagination-bullet {
   width: 10px;
   height: 10px;
-  background-color: #ffffff;
-  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  background: none;
+}
+
+.swiper-pagination-bullet:hover {
+  background: #FFFFFF;
+}
+
+.swiper-pagination-bullet {
+  margin: 0 20px;
 }
 
 .gallery {

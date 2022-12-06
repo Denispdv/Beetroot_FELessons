@@ -1,23 +1,23 @@
+new Swiper('.my-slider', {
+// Navigation arrows
+navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
 
-
-$('.slider').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-});
-
-/* const swiper = new Swiper('.slider', {
-
-  direction: 'vertical',
+  // Optional parameters
+  direction: 'horizontal',
   loop: true,
+
+  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
+    
   },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  }
-}); */
+  slidesPerView: 3,
 
+  autoplay: true,
+  dalay: 3000,
 
+});
