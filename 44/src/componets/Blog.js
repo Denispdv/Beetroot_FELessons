@@ -1,4 +1,4 @@
-import '../assets/css/Blog.css';
+/* import '../assets/css/Blog.css';
 
 function Blog() {
     return (
@@ -6,7 +6,7 @@ function Blog() {
             <Logo/>
             <div className="blog__title">Blog name</div>
             <div class="blog__social">
-                <SocialItem/>  {/* class="social-item" */}
+                <SocialItem/>  // className="social-item"
                 <SocialItem/>
                 <SocialItem/>
                 <SocialItem/>
@@ -16,4 +16,4 @@ function Blog() {
     )
 }
 
-export default Blog;
+export default Blog; */

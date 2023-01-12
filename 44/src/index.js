@@ -7,7 +7,9 @@ import reportWebVitals from './reportWebVitals';
 
 
 //css
-import './assets/css/basic/general.css'
+import './assets/css/basic/general.css';
+import './assets/scss/variables.scss';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
